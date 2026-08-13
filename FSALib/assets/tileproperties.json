@@ -49,20 +49,20 @@
     "Description": "GBA dividing wall"
   },
   "12": {
-    "Name": "Abyss",
-    "Description": "Links and enemies fall into the abyss."
+    "Name": "Abyss Alt",
+    "Description": "Links and enemies fall into the abyss Dupe of Tile 02?."
   },
   "13": {
     "Name": "Abyss, does damage",
     "Description": "Links and enemies fall into the abyss."
   },
   "14": {
-    "Name": "Void, Not walkable",
-    "Description": ""
+    "Name": "Void, Not walkable Alt 1",
+    "Description": "Dupe of Tile 00?"
   },
   "15": {
-    "Name": "Void, Not walkable",
-    "Description": ""
+    "Name": "Void, Not walkable Alt 2",
+    "Description": "Dupe of Tile 00?"
   },
   "16": {
     "Name": "Chest, open",
@@ -216,20 +216,20 @@
     "RequiredActorID": "TKRA"
   },
   "49": {
-    "Name": "Abyss, does damage",
-    "Description": "Link and enemies fall into the abyss and take damage."
+    "Name": "Abyss, does damage Alt 1",
+    "Description": "Link and enemies fall into the abyss and take damage Dupe of tile 13?."
   },
   "50": {
-    "Name": "",
-    "Description": ""
+    "Name": "Need to Research Tile",
+    "Description": "50"
   },
   "51": {
     "Name": "Melting Ice Block",
     "Description": "An ice block that melts when exposed to heat."
   },
   "52": {
-    "Name": "",
-    "Description": ""
+    "Name": "Need to Research Tile",
+    "Description": "52"
   },
   "53": {
     "Name": "Eyeball on switch",
@@ -328,20 +328,20 @@
     "Description": "A pot that can be broken by the player to drop two heart."
   },
   "74": {
-    "Name": "Ground",
+    "Name": "Ground Soild",
     "Description": "Not traversable!"
   },
   "75": {
-    "Name": "Ground",
+    "Name": "Ground Not Digable",
     "Description": "Traversable, digging not possible"
   },
   "76": {
-    "Name": "Ground",
-    "Description": "Not traversable!"
+    "Name": "Ground Soild Alt 1",
+    "Description": "Not traversable! Dupe of Tile 74?"
   },
   "77": {
-    "Name": "Ground",
-    "Description": "Not traversable!"
+    "Name": "Ground Soild Alt 2",
+    "Description": "Not traversable! Dupe of Tile 74"
   },
   "78": {
     "Name": "Fire jar",
@@ -366,12 +366,12 @@
     "RequiredActorID": "SWTH"
   },
   "83": {
-    "Name": "Tall grass",
+    "Name": "Tall grass Not Interactive",
     "Description": "Not interactive?"
   },
   "84": {
-    "Name": "",
-    "Description": ""
+    "Name": "Need to Research Tile",
+    "Description": "84"
   },
   "85": {
     "Name": "Torch",
@@ -546,12 +546,12 @@
     "Description": "Hammered into the ground."
   },
   "120": {
-    "Name": "",
-    "Description": ""
+    "Name": "Need to Research Tile?",
+    "Description": "120"
   },
   "121": {
-    "Name": "",
-    "Description": ""
+    "Name": "Need to Research Tile?",
+    "Description": "121"
   },
   "122": {
     "Name": "Hole",
@@ -760,12 +760,12 @@
     "MirrorTile": 166
   },
   "168": {
-    "Name": "Blue switch block",
-    "Description": "Can be raised and lowered with the Blue/Red switch."
+    "Name": "Red switch block",
+    "Description": "Can be raised and lowered with the Red/Blue switch."
   },
   "169": {
-    "Name": "Red switch block",
-    "Description": "Can be raised and lowered with the Blue/Red switch."
+    "Name": "Blue switch block",
+    "Description": "Can be raised and lowered with the Red/Blue switch."
   },
   "170": {
     "Name": "Big Chests",
@@ -1060,7 +1060,7 @@
     "MirrorTile": 233
   },
   "233": {
-    "Name": "Glitched tile",
+    "Name": "Glitched tile Alt",
     "Description": "",
     "MirrorTile": 232
   },
@@ -1508,7 +1508,7 @@
     "Description": ""
   },
   "329": {
-    "Name": "Tall grass",
+    "Name": "Tall grass burnable",
     "Description": "Tall grass you can cut/burn",
     "MirrorTile": 331
   },
