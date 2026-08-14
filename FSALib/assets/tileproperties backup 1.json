@@ -1,8 +1,7 @@
 {
   "0": {
-    "Name": "Void",
-    "Description": "",
-	"CollisionType": "Walkable"
+    "Name": "Void, Walkable",
+    "Description": ""
   },
   "1": {
     "Name": "Fragile block (Side view)",
@@ -10,106 +9,86 @@
   },
   "2": {
     "Name": "Abyss",
-    "Description": "Links and enemies fall into the abyss.",
-	"CollisionType": "Abyss"
+    "Description": "Links and enemies fall into the abyss."
   },
   "3": {
     "Name": "Water background (Side view)",
-    "Description": "",
-	"CollisionType": "Deep Water"
+    "Description": ""
   },
   "4": {
     "Name": "Shallow water",
-    "Description": "",
-	"CollisionType": "Shallow Water"
+    "Description": ""
   },
   "5": {
     "Name": "Deep water, whirlpool",
-    "Description": "",
-	"CollisionType": "Deep Water"
+    "Description": ""
   },
   "6": {
-    "Name": "Void Alt",
-    "Description": "Dupe of Tile 00?",
-	"CollisionType": "Walkable"
+    "Name": "Void, Walkable",
+    "Description": ""
   },
   "7": {
     "Name": "Deep water",
-    "Description": "",
-	"CollisionType": "Deep Water"
+    "Description": ""
   },
   "8": {
     "Name": "Ceiling, not walkable",
-    "Description": "",
-	"CollisionType": "Solid"
+    "Description": ""
   },
   "9": {
     "Name": "Ceiling, not walkable",
-    "Description": "",
-	"CollisionType": "Solid"
+    "Description": ""
   },
   "10": {
     "Name": "Ceiling Shadow",
     "Description": "Should be placed on the top layer.",
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "11": {
     "Name": "Ceiling, not walkable",
-    "Description": "GBA dividing wall",
-	"CollisionType": "Solid"
+    "Description": "GBA dividing wall"
   },
   "12": {
     "Name": "Abyss Alt",
-    "Description": "Links and enemies fall into the abyss Dupe of Tile 02?.",
-	"CollisionType": "Abyss"
+    "Description": "Links and enemies fall into the abyss Dupe of Tile 02?."
   },
   "13": {
     "Name": "Abyss, does damage",
-    "Description": "Links and enemies fall into the abyss.",
-	"CollisionType": "Abyss"
+    "Description": "Links and enemies fall into the abyss."
   },
   "14": {
-    "Name": "Void, Not walkable",
-    "Description": "",
-	"CollisionType": "Solid"
+    "Name": "Void, Not walkable Alt 1",
+    "Description": "Dupe of Tile 00?"
   },
   "15": {
-    "Name": "Void, Not walkable Alt",
-    "Description": "Dupe of Tile 14?",
-	"CollisionType": "Solid"
+    "Name": "Void, Not walkable Alt 2",
+    "Description": "Dupe of Tile 00?"
   },
   "16": {
     "Name": "Chest, open",
-    "Description": "An empty chest that has already been opened.",
-	"CollisionType": "Solid"
+    "Description": "An empty chest that has already been opened."
   },
   "17": {
     "Name": "Plate",
-    "Description": "",
-	"CollisionType": "Walkable"
+    "Description": ""
   },
   "18": {
     "Name": "Switch",
     "Description": "A floor switch that can be triggered by standing on it.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Walkable"
+    "RequiredActorID": "SWTH"
   },
   "19": {
     "Name": "Switch, Pressed",
-    "Description": "A floor switch that is triggered and pressed down.",
-	"CollisionType": "Walkable"
+    "Description": "A floor switch that is triggered and pressed down."
   },
   "20": {
     "Name": "Switch (Side view)",
     "Description": "A floor switch that can be triggered by standing on it.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Walkable"
+    "RequiredActorID": "SWTH"
   },
   "21": {
     "Name": "Switch, Pressed (Side view)",
-    "Description": "A floor switch that is triggered and pressed down.",
-	"CollisionType": "Walkable"
+    "Description": "A floor switch that is triggered and pressed down."
   },
   "22": {
     "Name": "Item pedestal (Side view)",
@@ -161,43 +140,35 @@
   },
   "32": {
     "Name": "Block, not movable",
-    "Description": "Cannot be moved.",
-	"CollisionType": "Solid"
+    "Description": "Cannot be moved."
   },
   "33": {
     "Name": "Block, movable",
-    "Description": "Can be moved in any direction.",
-	"CollisionType": "Solid"
+    "Description": "Can be moved in any direction."
   },
   "34": {
     "Name": "Green block, movable",
-    "Description": "Can be moved from Green to any direction.",
-	"CollisionType": "Solid"
+    "Description": "Can be moved from Green to any direction."
   },
   "35": {
     "Name": "Red block, movable",
-    "Description": "Can be moved from Red to any direction",
-	"CollisionType": "Solid"
+    "Description": "Can be moved from Red to any direction"
   },
   "36": {
     "Name": "Blue block, movable",
-    "Description": "Can be moved from Blue to any direction",
-	"CollisionType": "Solid"
+    "Description": "Can be moved from Blue to any direction"
   },
   "37": {
     "Name": "Purple block, movable",
-    "Description": "Can be moved from Purple to any direction",
-	"CollisionType": "Solid"
+    "Description": "Can be moved from Purple to any direction"
   },
   "38": {
     "Name": "Block, movable north",
-    "Description": "Can be moved to the north.",
-	"CollisionType": "Solid"
+    "Description": "Can be moved to the north."
   },
   "39": {
     "Name": "Block, movable south",
-    "Description": "Can be moved to the south.",
-	"CollisionType": "Solid"
+    "Description": "Can be moved to the south."
   },
   "40": {
     "Name": "Pegasus Boots",
@@ -242,13 +213,11 @@
   "48": {
     "Name": "Chest",
     "Description": "A chest that can hold an item.",
-    "RequiredActorID": "TKRA",
-	"CollisionType": "Solid"
+    "RequiredActorID": "TKRA"
   },
   "49": {
     "Name": "Abyss, does damage Alt 1",
-    "Description": "Link and enemies fall into the abyss and take damage Dupe of tile 13?.",
-	"CollisionType": "Abyss"
+    "Description": "Link and enemies fall into the abyss and take damage Dupe of tile 13?."
   },
   "50": {
     "Name": "Need to Research Tile",
@@ -265,171 +234,140 @@
   "53": {
     "Name": "Eyeball on switch",
     "Description": "Can be activated with bow and arrow.",
-    "RequiredActorID": "MEDM",
-	"CollisionType": "Solid"
+    "RequiredActorID": "MEDM"
   },
   "54": {
     "Name": "Block, movable west",
     "Description": "Can be moved to the west.",
-    "MirrorTile": 55,
-	"CollisionType": "Solid"
+    "MirrorTile": 55
   },
   "55": {
     "Name": "Block, movable east",
     "Description": "Can be moved to the east.",
-    "MirrorTile": 54,
-	"CollisionType": "Solid"
+    "MirrorTile": 54
   },
   "56": {
     "Name": "Thorn blockade",
     "Description": "Can be controlled with the help of a THRN Actor."
-	"CollisionType": "Solid",
   },
   "57": {
     "Name": "Thorn blockade, top",
     "Description": "Not required!",
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "58": {
     "Name": "Mole tile",
-    "Description": "Can be hammered into the ground.",
-	"CollisionType": "Solid"
+    "Description": "Can be hammered into the ground."
   },
   "59": {
     "Name": "Mole tile, chopped",
-    "Description": "Hammered into the ground.",
-	"CollisionType": "Walkable"
+    "Description": "Hammered into the ground."
   },
   "60": {
     "Name": "Stone tablet",
     "Description": "Stone tablet text actor.",
-    "RequiredActorID": "KNBN",
-	"CollisionType": "Solid"
+    "RequiredActorID": "KNBN"
   },
   "61": {
     "Name": "Torch",
     "Description": "A torch that produces light, can be lighted with a LWSW Actor.",
-    "RequiredActorID": "TRCH",
-	"CollisionType": "Solid"
+    "RequiredActorID": "TRCH"
   },
   "62": {
     "Name": "Spiked floor, retracted",
-    "Description": "",
-	"CollisionType": "Walkable"
+    "Description": ""
   },
   "63": {
     "Name": "Spiked floor trap",
     "Description": "Don't use! Use FLYK Actor.",
     "RequiredActorID": "FLYK",
-    "ActorValue": 3,
-	"CollisionType": "Walkable?"
+    "ActorValue": 3
   },
   "64": {
     "Name": "Pot",
-    "Description": "A pot that can be broken by the player.",
-	"CollisionType": "Breakable Solid"
+    "Description": "A pot that can be broken by the player."
   },
   "65": {
     "Name": "Pot, reveals switch",
     "Description": "A pot that can be broken by the player to reveal a switch.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Breakable Solid"
+    "RequiredActorID": "SWTH"
   },
   "66": {
     "Name": "Pot, drops a heart",
-    "Description": "A pot that can be broken by the player to drop a heart.",
-	"CollisionType": "Breakable Solid"
+    "Description": "A pot that can be broken by the player to drop a heart."
   },
   "67": {
     "Name": "Pot, reveals star switch",
     "Description": "A pot that can be broken by the player to reveal a star switch.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Breakable Solid"
+    "RequiredActorID": "SWTH"
   },
   "68": {
     "Name": "Pot, drops two heart",
-    "Description": "A pot that can be broken by the player to drop two heart.",
-	"CollisionType": "Breakable Solid"
+    "Description": "A pot that can be broken by the player to drop two heart."
   },
   "69": {
     "Name": "Pot (Side view)",
-    "Description": "A pot that can be broken by the player.",
-	"CollisionType": "Breakable Solid"
+    "Description": "A pot that can be broken by the player."
   },
   "70": {
     "Name": "Pot (Side view), reveals switch",
     "Description": "A pot that can be broken by the player to reveal a switch.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Breakable Solid"
+    "RequiredActorID": "SWTH"
   },
   "71": {
     "Name": "Pot (Side view), drops a heart",
-    "Description": "A pot that can be broken by the player to drop a heart.",
-	"CollisionType": "Breakable Solid"
+    "Description": "A pot that can be broken by the player to drop a heart."
   },
   "72": {
     "Name": "Pot (Side view), reveals star switch",
     "Description": "A pot that can be broken by the player to reveal a star switch.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Breakable Solid"
+    "RequiredActorID": "SWTH"
   },
   "73": {
     "Name": "Pot (Side view), drops two heart",
-    "Description": "A pot that can be broken by the player to drop two heart.",
-	"CollisionType": "Breakable Solid"
+    "Description": "A pot that can be broken by the player to drop two heart."
   },
   "74": {
     "Name": "Ground Soild",
-    "Description": "Not traversable!",
-	"CollisionType": "Solid"
+    "Description": "Not traversable!"
   },
   "75": {
     "Name": "Ground Not Digable",
-    "Description": "Traversable, digging not possible",
-	"CollisionType": "Walkable"
+    "Description": "Traversable, digging not possible"
   },
   "76": {
     "Name": "Ground Soild Alt 1",
-    "Description": "Not traversable! Dupe of Tile 74?",
-	"CollisionType": "Solid"
+    "Description": "Not traversable! Dupe of Tile 74?"
   },
   "77": {
     "Name": "Ground Soild Alt 2",
-    "Description": "Not traversable! Dupe of Tile 74",
-	"CollisionType": "Solid"
+    "Description": "Not traversable! Dupe of Tile 74"
   },
   "78": {
     "Name": "Fire jar",
-    "Description": "Can be thrown.",
-	"CollisionType": "Breakable Solid"
+    "Description": "Can be thrown."
   },
   "79": {
     "Name": "Water jar",
-    "Description": "Can be thrown.",
-	"CollisionType": "Breakable Solid"
+    "Description": "Can be thrown."
   },
   "80": {
     "Name": "Star switch",
     "Description": "A floor switch that can be triggered by standing on it.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Walkable"
+    "RequiredActorID": "SWTH"
   },
   "81": {
     "Name": "Star switch, Pressed",
-    "Description": "A floor switch that is triggered and pressed down.",
-	"CollisionType": "Walkable"
+    "Description": "A floor switch that is triggered and pressed down."
   },
   "82": {
     "Name": "Star switch (Side view)",
     "Description": "A floor switch that can be triggered by standing on it.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Walkable"
+    "RequiredActorID": "SWTH"
   },
   "83": {
     "Name": "Tall grass Not Interactive",
-    "Description": "Not interactive?",
-	"CollisionType": "Walkable"
+    "Description": "Not interactive?"
   },
   "84": {
     "Name": "Need to Research Tile",
@@ -438,209 +376,174 @@
   "85": {
     "Name": "Torch",
     "Description": "A torch that produces light, can be lighted with a LWSW Actor.",
-    "RequiredActorID": "TRCH",
-	"CollisionType": "Solid"
+    "RequiredActorID": "TRCH"
   },
   "86": {
     "Name": "Pillar",
     "Description": "",
-    "MirrorTile": 87,
-	"CollisionType": "Solid"
+    "MirrorTile": 87
   },
   "87": {
     "Name": "Pillar",
     "Description": "",
-    "MirrorTile": 86,
-	"CollisionType": "Solid"
+    "MirrorTile": 86
   },
   "88": {
     "Name": "Bomb Flower",
-    "Description": "Don't use! Use Tile 89 Instead",
-	"CollisionType": "Solid"
+    "Description": "Don't use!"
   },
   "89": {
     "Name": "Bomb Flower",
     "Description": "Produces bombs.",
     "RequiredActorID": "HBMB",
-    "ActorValue": 1,
-	"CollisionType": "Walkable"
+    "ActorValue": 1
   },
   "90": {
     "Name": "Destroyed grass",
-    "Description": "",
-	"CollisionType": "Walkable"
+    "Description": ""
   },
   "91": {
-    "Name": "Magic circle gate Top Left",
+    "Name": "Magic circle gate",
     "Description": "",
-    "MirrorTile": 92,
-	"CollisionType": "Walkable"
+    "MirrorTile": 92
   },
   "92": {
-    "Name": "Magic circle gate Top Right",
+    "Name": "Magic circle gate",
     "Description": "",
-    "MirrorTile": 91,
-	"CollisionType": "Walkable"
+    "MirrorTile": 91
   },
   "93": {
-    "Name": "Magic circle gate Bottom Left",
+    "Name": "Magic circle gate",
     "Description": "",
-    "MirrorTile": 94,
-	"CollisionType": "Walkable"
+    "MirrorTile": 94
   },
   "94": {
-    "Name": "Magic circle gate Bottom Right",
+    "Name": "Magic circle gate",
     "Description": "",
-    "MirrorTile": 93,
-	"CollisionType": "Walkable"
+    "MirrorTile": 93
   },
   "95": {
     "Name": "Coconut",
-    "Description": "Can be thrown.",
-	"CollisionType": "Pickupable Solid"
+    "Description": "Can be thrown."
   },
   "96": {
     "Name": "Lifting rock soil",
     "Description": "",
-    "MirrorTile": 97,
-	"CollisionType": "Walkable"
+    "MirrorTile": 97
   },
   "97": {
     "Name": "Lifting rock soil",
     "Description": "",
-    "MirrorTile": 96,
-	"CollisionType": "Walkable"
+    "MirrorTile": 96
   },
   "98": {
     "Name": "Lifting rock soil",
     "Description": "",
-    "MirrorTile": 99,
-	"CollisionType": "Walkable"
+    "MirrorTile": 99
   },
   "99": {
     "Name": "Lifting rock soil",
     "Description": "Intended to platiren a 2 person lifting rock “RCK2” here.",
     "MirrorTile": 98,
     "RequiredActorID": "RCK2",
-    "ActorValue": 0,
-	"CollisionType": "Walkable"
+    "ActorValue": 0
   },
   "100": {
     "Name": "Hidden staircase",
     "Description": "",
     "MirrorTile": 101,
     "RequiredActorID": "WARP",
-    "ActorValue": 26,
-	"CollisionType": "Half Solid Walkable"
+    "ActorValue": 26
   },
   "101": {
     "Name": "Hidden staircase",
     "Description": "",
-    "MirrorTile": 100,
-	"CollisionType": "Half Solid Walkable"
+    "MirrorTile": 100
   },
   "102": {
     "Name": "Hidden staircase",
     "Description": "",
-    "MirrorTile": 103,
-	"CollisionType": "Half Solid Walkable"
+    "MirrorTile": 103
   },
   "103": {
     "Name": "Hidden staircase",
     "Description": "Intended to platiren a 2 person lifting rock “RCK2” here.",
     "MirrorTile": 102,
     "RequiredActorID": "RCK2",
-    "ActorValue": 0,
-	"CollisionType": "Half Solid Walkable"
+    "ActorValue": 0
   },
   "104": {
     "Name": "Bush, reveals switch",
     "Description": "A Bush that can be destroyed by the player to reveal a switch.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Breakable Burnable Solid"
+    "RequiredActorID": "SWTH"
   },
   "105": {
     "Name": "Bush, reveals hole",
-    "Description": "A Bush that can be destroyed by the player to reveal a hole.",
-	"CollisionType": "Breakable Burnable Solid"
+    "Description": "A Bush that can be destroyed by the player to reveal a hole."
   },
   "106": {
     "Name": "Bush, reveals star switch",
     "Description": "A Bush that can be destroyed by the player to reveal a star switch.",
-    "RequiredActorID": "SWTH",
-	"CollisionType": "Breakable Burnable Solid"
+    "RequiredActorID": "SWTH"
   },
   "107": {
     "Name": "Bush, drops two heart",
-    "Description": "A Bush that can be destroyed by the player to drop two heart.",
-	"CollisionType": "Breakable Burnable Solid"
+    "Description": "A Bush that can be destroyed by the player to drop two heart."
   },
   "108": {
     "Name": "Cave entrance ceiling, top layer",
     "Description": "",
     "MirrorTile": 109,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "109": {
     "Name": "Cave entrance ceiling, top layer",
     "Description": "",
     "MirrorTile": 108,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "110": {
     "Name": "Cave entrance ceiling",
     "Description": "",
-    "MirrorTile": 111,
-	"CollisionType": "Walkable"
+    "MirrorTile": 111
   },
   "111": {
     "Name": "Cave entrance ceiling",
     "Description": "",
-    "MirrorTile": 110,
-	"CollisionType": "Walkable"
+    "MirrorTile": 110
   },
   "112": {
     "Name": "Bush",
-    "Description": "A Bush that can be destroyed by the player.",
-	"CollisionType": "Breakable Burnable Solid"
+    "Description": "A Bush that can be destroyed by the player."
   },
   "113": {
     "Name": "Sign",
     "Description": "Sign text actor.",
-    "RequiredActorID": "KNBN",
-	"CollisionType": "Solid"
+    "RequiredActorID": "KNBN"
   },
   "114": {
     "Name": "Small Rock (Grass)",
-    "Description": "Can be thrown.",
-	"CollisionType": "Pickupable Solid"
+    "Description": "Can be thrown."
   },
   "115": {
     "Name": "Small boulder (Grass)",
-    "Description": "",
-	"CollisionType": "Solid"
+    "Description": ""
   },
   "116": {
     "Name": "Tall grass",
-    "Description": "Can be cut with the sword.",
-	"CollisionType": "Breakable Walkable"
+    "Description": "Can be cut with the sword."
   },
   "117": {
     "Name": "Bush, drops a heart",
-    "Description": "A Bush that can be destroyed by the player to drop a heart.",
-	"CollisionType": "Breakable Burnable Solid"
+    "Description": "A Bush that can be destroyed by the player to drop a heart."
   },
   "118": {
     "Name": "Stakes",
-    "Description": "Can be hammered into the ground.",
-	"CollisionType": "Poundable Solid"
+    "Description": "Can be hammered into the ground."
   },
   "119": {
     "Name": "Stakes, chopped",
-    "Description": "Hammered into the ground.",
-	"CollisionType": "Walkable"
+    "Description": "Hammered into the ground."
   },
   "120": {
     "Name": "Need to Research Tile?",
@@ -652,143 +555,119 @@
   },
   "122": {
     "Name": "Hole",
-    "Description": "",
-	"CollisionType": "Walkable"
+    "Description": ""
   },
   "123": {
     "Name": "Small hole",
-    "Description": "Is left behind when a sign is pulled out of the ground.",
-	"CollisionType": "Walkable"
+    "Description": "Is left behind when a sign is pulled out of the ground."
   },
   "124": {
     "Name": "Imprint in grass",
-    "Description": "Is left behind when a Small Rock is pulled out of the ground.",
-	"CollisionType": "Walkable"
+    "Description": "Is left behind when a Small Rock is pulled out of the ground."
   },
   "125": {
     "Name": "Cut grass",
-    "Description": "",
-	"CollisionType": "Walkable"
+    "Description": ""
   },
   "126": {
     "Name": "Cave entrance",
     "Description": "",
     "MirrorTile": 127,
     "RequiredActorID": "WARP",
-    "ActorValue": 25,
-	"CollisionType": "Walkable",
+    "ActorValue": 25
   },
   "127": {
     "Name": "Cave entrance",
     "Description": "",
-    "MirrorTile": 126,
-	"CollisionType": "Walkable"
+    "MirrorTile": 126
   },
   "128": {
     "Name": "Key block",
     "Description": "Can be removed with a small key.",
     "RequiredActorID": "DOOR",
-    "ActorValue": 5,
-	"CollisionType": "Solid"
+    "ActorValue": 5
   },
   "129": {
     "Name": "Fragile block",
-    "Description": "Can be removed with a bomb.",
-	"CollisionType": "Bombable Solid"
+    "Description": "Can be removed with a bomb."
   },
   "130": {
     "Name": "Small Rock (Earth)",
-    "Description": "Can be thrown.",
-	"CollisionType": "Pickupable Solid"
+    "Description": "Can be thrown."
   },
   "131": {
     "Name": "Small boulder (Earth)",
-    "Description": "",
-	"CollisionType": "Solid"
+    "Description": ""
   },
   "132": {
     "Name": "Bomb Flower",
-    "Description": "Don't use!",
-	"CollisionType": "Walkable"
+    "Description": "Don't use!"
   },
   "133": {
     "Name": "Bomb Flower",
     "Description": "Produces bombs.",
     "RequiredActorID": "HBMB",
-    "ActorValue": 1,
-	"CollisionType": "Walkable"
+    "ActorValue": 1
   },
   "134": {
     "Name": "Shallow water",
     "Description": "",
-    "MirrorTile": 135,
-	"CollisionType": "ShallowWater"
+    "MirrorTile": 135
   },
   "135": {
     "Name": "Shallow water",
     "Description": "",
-    "MirrorTile": 134,
-	"CollisionType": "ShallowWater"
+    "MirrorTile": 134
   },
   "136": {
     "Name": "Shallow water",
     "Description": "",
-    "MirrorTile": 137,
-	"CollisionType": "ShallowWater"
+    "MirrorTile": 137
   },
   "137": {
     "Name": "Shallow water",
     "Description": "",
-    "MirrorTile": 136,
-	"CollisionType": "ShallowWater"
+    "MirrorTile": 136
   },
   "139": {
     "Name": "Green tile",
     "Description": "Only the green link can run over the tile.",
     "RequiredActorID": "RBPN",
-    "ActorValue": 0,
-	"CollisionType": "Solid"
+    "ActorValue": 0
   },
   "140": {
     "Name": "Red tile",
     "Description": "Only the red link can run over the tile.",
     "RequiredActorID": "RBPN",
-    "ActorValue": 128,
-	"CollisionType": "Solid"
+    "ActorValue": 128
   },
   "141": {
     "Name": "Blue tile",
     "Description": "Only the blue link can run over the tile.",
     "RequiredActorID": "RBPN",
-    "ActorValue": 256,
-	"CollisionType": "Solid"
+    "ActorValue": 256
   },
   "142": {
     "Name": "Purple tile",
     "Description": "Only the purple link can run over the tile.",
     "RequiredActorID": "RBPN",
-    "ActorValue": 384,
-	"CollisionType": "Solid"
+    "ActorValue": 384
   },
   "143": {
     "Name": "Object spawn marker",
-    "Description": "Used as a marker tile to indicate where objects, such as treasure chests may appear.",
-	"CollisionType": "Walkable"
+    "Description": "Used as a marker tile to indicate where objects, such as treasure chests may appear."
   },
   "144": {
     "Name": "Breaking Ice",
-    "Description": "Ice that gradually cracks and eventually breaks.",
-	"CollisionType": "Slippery?"
+    "Description": "Ice that gradually cracks and eventually breaks."
   },
   "145": {
     "Name": "Breaking Ice",
-    "Description": "Ice that gradually cracks and eventually breaks.",
-	"CollisionType": "Slippery?"
+    "Description": "Ice that gradually cracks and eventually breaks."
   },
   "146": {
     "Name": "Broken Ice",
-    "Description": "Ice that gradually cracks and eventually breaks.",
-	"CollisionType": "Slippery?"
+    "Description": "Ice that gradually cracks and eventually breaks."
   },
   "147": {
     "Name": "",
@@ -800,35 +679,29 @@
   },
   "149": {
     "Name": "Strong water current, South",
-    "Description": "",
-	"CollisionType": "DeepWater"
+    "Description": ""
   },
   "150": {
     "Name": "Strong water current, North",
-    "Description": "",
-	"CollisionType": "DeepWater"
+    "Description": ""
   },
   "151": {
     "Name": "Strong water current, West",
     "Description": "",
-    "MirrorTile": 152,
-	"CollisionType": "DeepWater"
+    "MirrorTile": 152
   },
   "152": {
     "Name": "Strong water current, East",
     "Description": "",
-    "MirrorTile": 151,
-	"CollisionType": "DeepWater"
+    "MirrorTile": 151
   },
   "153": {
     "Name": "Fire jar (Side view)",
-    "Description": "Can be thrown.",
-	"CollisionType": "Breakable Solid"
+    "Description": "Can be thrown."
   },
   "154": {
     "Name": "Water jar (Side view)",
-    "Description": "Can be thrown.",
-	"CollisionType": "Breakable Solid"
+    "Description": "Can be thrown."
   },
   "155": {
     "Name": "",
@@ -840,8 +713,7 @@
   },
   "157": {
     "Name": "Destroyed fragile block",
-    "Description": "A fragile block that has been blowed up.",
-	"CollisionType": "Walkable"
+    "Description": ""
   },
   "158": {
     "Name": "",
@@ -863,82 +735,68 @@
   },
   "162": {
     "Name": "Shallow water",
-    "Description": "",
-	"CollisionType": "ShallowWater"
+    "Description": ""
   },
   "163": {
     "Name": "Shallow water",
-    "Description": "",
-	"CollisionType": "ShallowWater"
+    "Description": ""
   },
   "164": {
     "Name": "Conveyors, north",
-    "Description": "Move the player.",
-	"CollisionType": "Conveyor"
+    "Description": "Move the player."
   },
   "165": {
     "Name": "Conveyors, south",
-    "Description": "Move the player.",
-	"CollisionType": "Conveyor"
+    "Description": "Move the player."
   },
   "166": {
     "Name": "Conveyors, west",
     "Description": "Move the player.",
-    "MirrorTile": 167,
-	"CollisionType": "Conveyor"
+    "MirrorTile": 167
   },
   "167": {
     "Name": "Conveyors, east",
     "Description": "Move the player.",
-    "MirrorTile": 166,
-	"CollisionType": "Conveyor"
+    "MirrorTile": 166
   },
   "168": {
     "Name": "Red switch block",
-    "Description": "Can be raised and lowered with the Red/Blue switch.",
-	"CollisionType": "Walkable?"
+    "Description": "Can be raised and lowered with the Red/Blue switch."
   },
   "169": {
     "Name": "Blue switch block",
-    "Description": "Can be raised and lowered with the Red/Blue switch.",
-	"CollisionType": "Solid?"
+    "Description": "Can be raised and lowered with the Red/Blue switch."
   },
   "170": {
     "Name": "Big Chests",
     "Description": "Can be opened with a large key and gives 1000 force crystals.",
     "MirrorTile": 171,
     "RequiredActorID": "DOOR",
-    "ActorValue": 7,
-	"CollisionType": "Solid"
+    "ActorValue": 7
   },
   "171": {
     "Name": "Big Chests",
     "Description": "Can be opened with a large key and gives 1000 force crystals.",
-    "MirrorTile": 170,
-	"CollisionType": "Solid"
+    "MirrorTile": 170
   },
   "172": {
     "Name": "Eyeball Switch",
     "Description": "A switch that activates when hit by a projectile.",
-    "RequiredActorID": "MEDM",
-	"CollisionType": "Solid"
+    "RequiredActorID": "MEDM"
   },
   "173": {
     "Name": "Slippery Ice",
-    "Description": "A slippery ice surface that causes players to slide while walking.",
-	"CollisionType": "Slippery"
+    "Description": "A slippery ice surface that causes players to slide while walking."
   },
   "174": {
     "Name": "Red Switch",
     "Description": "Can raise and lower red/blue switch block..",
-    "RequiredActorID": "RDBL",
-	"CollisionType": "Solid"
+    "RequiredActorID": "RDBL"
   },
   "175": {
     "Name": "Blue switch",
     "Description": "Can raise and lower red/blue switch block..",
-    "RequiredActorID": "RDBL",
-	"CollisionType": "Solid"
+    "RequiredActorID": "RDBL"
   },
   "176": {
     "Name": "Shovel",
@@ -953,36 +811,30 @@
   "178": {
     "Name": "Shallow water",
     "Description": "",
-    "MirrorTile": 179,
-	"CollisionType": "ShallowWater"
+    "MirrorTile": 179
   },
   "179": {
     "Name": "Shallow water",
     "Description": "",
-    "MirrorTile": 178,
-	"CollisionType": "ShallowWater"
+    "MirrorTile": 178
   },
   "180": {
     "Name": "Water current, South",
-    "Description": "",
-	"CollisionType": "DeepWater"
+    "Description": ""
   },
   "181": {
     "Name": "Water current, North",
-    "Description": "",
-	"CollisionType": "DeepWater"
+    "Description": ""
   },
   "182": {
     "Name": "Water current, West",
     "Description": "",
-    "MirrorTile": 183,
-	"CollisionType": "DeepWater"
+    "MirrorTile": 183
   },
   "183": {
     "Name": "Water current, East",
     "Description": "",
-    "MirrorTile": 182,
-	"CollisionType": "DeepWater"
+    "MirrorTile": 182
   },
   "184": {
     "Name": "",
@@ -1003,32 +855,27 @@
   "188": {
     "Name": "Big Chests, opened",
     "Description": "An empty big chest that has already been opened.",
-    "MirrorTile": 189,
-	"CollisionType": "Solid"
+    "MirrorTile": 189
   },
   "189": {
     "Name": "Big Chests, opened",
     "Description": "An empty big chest that has already been opened.",
-    "MirrorTile": 188,
-	"CollisionType": "Solid"
+    "MirrorTile": 188
   },
   "190": {
     "Name": "On switch",
     "Description": "",
-    "RequiredActorID": "ONOF",
-	"CollisionType": "Solid"
+    "RequiredActorID": "ONOF"
   },
   "191": {
     "Name": "Off switch",
     "Description": "",
-    "RequiredActorID": "ONOF",
-	"CollisionType": "Solid"
+    "RequiredActorID": "ONOF"
   },
   "192": {
     "Name": "Steel ball spawner, North",
     "Description": "Top left corner of wall",
-    "MirrorTile": 194,
-	"CollisionType": "Solid"
+    "MirrorTile": 194
   },
   "193": {
     "Name": "",
@@ -1037,14 +884,12 @@
   "194": {
     "Name": "Steel ball spawner, North",
     "Description": "Top right corner of wall",
-    "MirrorTile": 192,
-	"CollisionType": "Solid"
+    "MirrorTile": 192
   },
   "195": {
     "Name": "Steel ball spawner, North",
     "Description": "West corner of wall",
-    "MirrorTile": 197,
-	"CollisionType": "Solid"
+    "MirrorTile": 197
   },
   "196": {
     "Name": "",
@@ -1053,14 +898,12 @@
   "197": {
     "Name": "Steel ball spawner, North",
     "Description": "Right corner of wall",
-    "MirrorTile": 195,
-	"CollisionType": "Solid"
+    "MirrorTile": 195
   },
   "198": {
     "Name": "Steel ball spawner, South",
     "Description": "Bottom left corner of wall",
-    "MirrorTile": 200,
-	"CollisionType": "Solid"
+    "MirrorTile": 200
   },
   "199": {
     "Name": "",
@@ -1069,126 +912,105 @@
   "200": {
     "Name": "Steel ball spawner, South",
     "Description": "Bottom left corner of wall",
-    "MirrorTile": 198,
-	"CollisionType": "Solid"
+    "MirrorTile": 198
   },
   "201": {
     "Name": "Steel ball spawner, South",
     "Description": "Left corner of wall",
-    "MirrorTile": 203,
-	"CollisionType": "Solid"
+    "MirrorTile": 203
   },
   "203": {
     "Name": "Steel ball spawner, South",
     "Description": "Right corner of wall",
-    "MirrorTile": 201,
-	"CollisionType": "Solid"
+    "MirrorTile": 201
   },
   "204": {
     "Name": "Steel ball spawner, West",
     "Description": "Top left corner of wall",
-    "MirrorTile": 113,
-	"CollisionType": "Solid"
+    "MirrorTile": 113
   },
   "205": {
     "Name": "Steel ball spawner, West",
     "Description": "Left corner of wall",
-    "MirrorTile": 214,
-	"CollisionType": "Solid"
+    "MirrorTile": 214
   },
   "206": {
     "Name": "Steel ball spawner, West",
     "Description": "Bottom left corner of wall",
-    "MirrorTile": 215,
-	"CollisionType": "Solid"
+    "MirrorTile": 215
   },
   "207": {
     "Name": "Steel ball spawner, West",
     "Description": "Left corner of wall",
-    "MirrorTile": 210,
-	"CollisionType": "Solid"
+    "MirrorTile": 210
   },
   "208": {
     "Name": "Steel ball spawner, East",
     "Description": "Right corner of wall",
-    "MirrorTile": 211,
-	"CollisionType": "Solid"
+    "MirrorTile": 211
   },
   "209": {
     "Name": "Steel ball spawner, East",
     "Description": "Bottom right corner of wall",
-    "MirrorTile": 212,
-	"CollisionType": "Solid"
+    "MirrorTile": 212
   },
   "210": {
     "Name": "Steel ball spawner, East ",
     "Description": "Top left corner of wall",
-    "MirrorTile": 207,
-	"CollisionType": "Solid"
+    "MirrorTile": 207
   },
   "211": {
     "Name": "Steel ball spawner, East",
     "Description": "Left corner of wall",
-    "MirrorTile": 208,
-	"CollisionType": "Solid"
+    "MirrorTile": 208
   },
   "212": {
     "Name": "Steel ball spawner, East",
     "Description": "Bottom left corner of wall",
-    "MirrorTile": 209,
-	"CollisionType": "Solid"
+    "MirrorTile": 209
   },
   "213": {
     "Name": "Steel ball spawner, East",
     "Description": "Top right corner of wall",
-    "MirrorTile": 204,
-	"CollisionType": "Solid"
+    "MirrorTile": 204
   },
   "214": {
     "Name": "Steel ball spawner, East",
     "Description": "Top corner of wall",
-    "MirrorTile": 205,
-	"CollisionType": "Solid"
+    "MirrorTile": 205
   },
   "215": {
     "Name": "Steel ball spawner, East",
     "Description": "Top right corner of wall",
-    "MirrorTile": 206,
-	"CollisionType": "Solid"
+    "MirrorTile": 206
   },
   "216": {
-    "Name": "Magic circle gate Top Left Alt",
+    "Name": "Magic circle gate",
     "Description": "",
-    "MirrorTile": 217,
-	"CollisionType": "Walkable"
+    "MirrorTile": 217
   },
   "217": {
-    "Name": "Magic circle gate Top Right Alt",
+    "Name": "Magic circle gate",
     "Description": "",
-    "MirrorTile": 216,
-	"CollisionType": "Walkable"
+    "MirrorTile": 216
   },
   "218": {
-    "Name": "Magic circle gate Bottom Left Alt",
+    "Name": "Magic circle gate",
     "Description": "",
-    "MirrorTile": 219,
-	"CollisionType": "Walkable"
+    "MirrorTile": 219
   },
   "219": {
-    "Name": "Magic circle gate Bottom Right Alt",
+    "Name": "Magic circle gate",
     "Description": "",
-    "MirrorTile": 218,
-	"CollisionType": "Walkable"
+    "MirrorTile": 218
   },
   "220": {
-    "Name": "Block Alt",
-    "Description": "Not movable Dupe of Tile 32?",
-	"CollisionType": "Solid"
+    "Name": "Block",
+    "Description": "Not movable"
   },
   "221": {
-    "Name": "Solid Flooring?",
-    "Description": "",
-	"CollisionType": "Solid"
+    "Name": "",
+    "Description": ""
   },
   "223": {
     "Name": "",
@@ -1201,31 +1023,26 @@
   "225": {
     "Name": "Floor Switch, East",
     "Description": "",
-    "MirrorTile": 226,
-	"CollisionType": "Walkable"
+    "MirrorTile": 226
   },
   "226": {
     "Name": "Floor Switch, West",
     "Description": "",
-    "MirrorTile": 225,
-	"CollisionType": "Walkable"
+    "MirrorTile": 225
   },
   "227": {
     "Name": "?",
     "Description": "",
-    "MirrorTile": 228,
-	"CollisionType": "Solid?"
+    "MirrorTile": 228
   },
   "228": {
     "Name": "?",
     "Description": "",
-    "MirrorTile": 227,
-	"CollisionType": "Solid?"
+    "MirrorTile": 227
   },
   "229": {
-    "Name": "Spikes",
-    "Description": "Spikes that Damage the Player",
-	"CollisionType": "Hazard"
+    "Name": "",
+    "Description": ""
   },
   "230": {
     "Name": "Dirt wall, East",
@@ -1240,14 +1057,12 @@
   "232": {
     "Name": "Glitched tile",
     "Description": "",
-    "MirrorTile": 233,
-	"CollisionType": "Solid?"
+    "MirrorTile": 233
   },
   "233": {
     "Name": "Glitched tile Alt",
     "Description": "",
-    "MirrorTile": 232,
-	"CollisionType": "Solid?"
+    "MirrorTile": 232
   },
   "234": {
     "Name": "",
@@ -1264,8 +1079,7 @@
   "237": {
     "Name": "Ladder, West",
     "Description": "Top left of ladder",
-    "MirrorTile": 238,
-	"CollisionType": "Walkable"
+    "MirrorTile": 238
   },
   "238": {
     "Name": "Ladder, East",
@@ -1320,104 +1134,86 @@
     "MirrorTile": 246
   },
   "249": {
-    "Name": "Bottom Facing Wall?",
-    "Description": "",
-	"CollisionType": "Solid?"
+    "Name": "",
+    "Description": ""
   },
   "250": {
-    "Name": "Tree trunk",
-	"CollisionType": "Burnable Solid?"
+    "Name": "Tree trunk"
   },
   "251": {
-    "Name": "Bird Post",
-    "Description": "",
-	"CollisionType": "Solid"
+    "Name": "",
+    "Description": ""
   },
   "252": {
     "Name": "Dirt wall, East",
     "Description": "Bottom left of dirt wall",
-    "MirrorTile": 239,
-	"CollisionType": "Solid"
+    "MirrorTile": 239
   },
   "253": {
-    "Name": "Dirt wall Left",
-    "Description": "Bottom Left of dirt wall",
-    "MirrorTile": 255,
-	"CollisionType": "Solid"
+    "Name": "Dirt wall",
+    "Description": "Bottom of dirt wall",
+    "MirrorTile": 255
   },
   "254": {
-    "Name": "Dirt wall Middle",
-    "Description": "Bottom Middle of dirt wall",
-	"CollisionType": "Solid"
+    "Name": "",
+    "Description": ""
   },
   "255": {
-    "Name": "Dirt wall Right",
-    "Description": "Bottom Right of dirt wall",
-    "MirrorTile": 253,
-	"CollisionType": "Solid"
+    "Name": "Dirt wall",
+    "Description": "Bottom of dirt wall",
+    "MirrorTile": 253
   },
   "256": {
     "Name": "Dirt wall, West",
     "Description": "Dirt wall in water",
-    "MirrorTile": 257,
-	"CollisionType": "Solid"
+    "MirrorTile": 257
   },
   "257": {
     "Name": "Dirt wall, East",
     "Description": "Dirt wall in water",
-    "MirrorTile": 256,
-	"CollisionType": "Solid"
+    "MirrorTile": 256
   },
   "258": {
-    "Name": "Dirt Wall, Upward Facing",
-    "Description": "",
-	"CollisionType": "Solid"
+    "Name": "",
+    "Description": ""
   },
   "259": {
     "Name": "Dirt wall cliff, West",
     "Description": "Top left of jumpable dirt wall",
-    "MirrorTile": 261,
-	"CollisionType": "Solid"
+    "MirrorTile": 261
   },
   "260": {
-    "Name": "Dirt wall cliff, Cliff",
-    "Description": "Middle of jumpable dirt wall",
-	"CollisionType": "Jumpable"
+    "Name": "",
+    "Description": ""
   },
   "261": {
     "Name": "Dirt wall cliff, East",
     "Description": "Top of jumpable dirt wall",
-    "MirrorTile": 259,
-	"CollisionType": "Solid"
+    "MirrorTile": 259
   },
   "262": {
     "Name": "Dirt wall, West",
     "Description": "Left side of dirt wall",
-    "MirrorTile": 263,
-	"CollisionType": "Solid"
+    "MirrorTile": 263
   },
   "263": {
     "Name": "Dirt wall East",
     "Description": "Right side of dirt wall",
-    "MirrorTile": 262,
-	"CollisionType": "Solid"
+    "MirrorTile": 262
   },
   "264": {
-    "Name": "Dirt wall Downward Facing",
-    "Description": "",
-	"CollisionType": "Solid"
+    "Name": "",
+    "Description": ""
   },
   "265": {
     "Name": "Cliff, West",
     "Description": "Top left of jumpable cliff",
-    "MirrorTile": 266,
-	"CollisionType": "Jumpable"
+    "MirrorTile": 266
   },
   "266": {
     "Name": "Cliff, East",
     "Description": "Top right of jumpable cliff",
-    "MirrorTile": 265,
-	"CollisionType": "Jumpable"
+    "MirrorTile": 265
   },
   "267": {
     "Name": "Dirt wall, West",
@@ -1436,20 +1232,17 @@
   "270": {
     "Name": "Cliff, West",
     "Description": "Bottom left of cliff",
-    "MirrorTile": 271,
-	"CollisionType": "Jumpable"
+    "MirrorTile": 271
   },
   "271": {
     "Name": "Cliff East",
     "Description": "Bottom right of cliff",
-    "MirrorTile": 270,
-	"CollisionType": "Jumpable"
+    "MirrorTile": 270
   },
   "272": {
     "Name": "Cliff, East",
     "Description": "",
-    "MirrorTile": 274,
-	"CollisionType": "Solid"
+    "MirrorTile": 274
   },
   "273": {
     "Name": "",
@@ -1458,14 +1251,12 @@
   "274": {
     "Name": "Cliff West",
     "Description": "",
-    "MirrorTile": 272,
-	"CollisionType": "Solid"
+    "MirrorTile": 272
   },
   "275": {
     "Name": "Dirt wall, East",
     "Description": "Part of diagonal cliff",
-    "MirrorTile": 277,
-	"CollisionType": "Solid"
+    "MirrorTile": 277
   },
   "276": {
     "Name": "",
@@ -1474,282 +1265,235 @@
   "277": {
     "Name": "Dirt wall, East",
     "Description": "Part of cliff",
-    "MirrorTile": 275,
-	"CollisionType": "Solid"
+    "MirrorTile": 275
   },
   "278": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 285,
-	"CollisionType": "Solid"
+    "MirrorTile": 285
   },
   "279": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 284,
-	"CollisionType": "Solid"
+    "MirrorTile": 284
   },
   "280": {
     "Name": "Dirt wall edge, East",
     "Description": "",
-    "MirrorTile": 283,
-	"CollisionType": "Jumpable"
+    "MirrorTile": 283
   },
   "281": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 282,
-	"CollisionType": "Solid"
+    "MirrorTile": 282
   },
   "282": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 281,
-	"CollisionType": "Solid"
+    "MirrorTile": 281
   },
   "283": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 280,
-	"CollisionType": "Jumpable"
+    "MirrorTile": 280
   },
   "284": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 279,
-	"CollisionType": "Solid"
+    "MirrorTile": 279
   },
   "285": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 278,
-	"CollisionType": "Solid"
+    "MirrorTile": 278
   },
   "286": {
     "Name": "Dirt wall, Wast",
     "Description": "",
-    "MirrorTile": 287,
-	"CollisionType": "Solid"
+    "MirrorTile": 287
   },
   "287": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 286,
-	"CollisionType": "Solid"
+    "MirrorTile": 286
   },
   "288": {
     "Name": "Dirt wall cliff, Wast",
     "Description": "Edge of cliff",
-    "MirrorTile": 290,
-	"CollisionType": "Solid"
+    "MirrorTile": 290
   },
   "289": {
-    "Name": "Dirt wall cliff, Upwards Facing Cliff",
-    "Description": "Middle of cliff",
-	"CollisionType": "Jumpable"
+    "Name": "",
+    "Description": ""
   },
   "290": {
     "Name": "Dirt wall cliff",
     "Description": "Edge of cliff",
-    "MirrorTile": 288,
-	"CollisionType": "Solid"
+    "MirrorTile": 288
   },
   "291": {
     "Name": "Dirt wall, West",
     "Description": "Bottom edge of cliff",
-    "MirrorTile": 293,
-	"CollisionType": "Solid"
+    "MirrorTile": 293
   },
   "292": {
-    "Name": "Dirt wall, Middle",
-    "Description": "Bottom middle of cliff",
-	"CollisionType": "Solid"
+    "Name": "",
+    "Description": ""
   },
   "293": {
     "Name": "Dirt wall, East",
     "Description": "Bottom edge of cliff",
-    "MirrorTile": 291,
-	"CollisionType": "Solid"
+    "MirrorTile": 291
   },
   "294": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 301,
-	"CollisionType": "Solid"
+    "MirrorTile": 301
   },
   "295": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 300,
-	"CollisionType": "Solid"
+    "MirrorTile": 300
   },
   "296": {
     "Name": "Cliff",
     "Description": "Top edge of cliff",
-    "MirrorTile": 299,
-	"CollisionType": "Jumpable"
+    "MirrorTile": 299
   },
   "297": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 298,
-	"CollisionType": "Solid"
+    "MirrorTile": 298
   },
   "298": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 298,
-	"CollisionType": "Solid"
+    "MirrorTile": 298
   },
   "299": {
     "Name": "Cliff, Wast",
     "Description": "Top of cliff",
-    "MirrorTile": 296,
-	"CollisionType": "Solid"
+    "MirrorTile": 296
   },
   "300": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 295,
-	"CollisionType": "Solid"
+    "MirrorTile": 295
   },
   "301": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 294,
-	"CollisionType": "Solid"
+    "MirrorTile": 294
   },
   "302": {
     "Name": "Dirt wall, West",
     "Description": "Wall touches water",
-    "MirrorTile": 303,
-	"CollisionType": "Solid"
+    "MirrorTile": 303
   },
   "303": {
     "Name": "Dirt wall, East",
     "Description": "Wall touches water",
-    "MirrorTile": 302,
-	"CollisionType": "Solid"
+    "MirrorTile": 302
   },
   "304": {
     "Name": "Dirt wall, West",
     "Description": "",
-    "MirrorTile": 306,
-	"CollisionType": "Solid"
+    "MirrorTile": 306
   },
   "306": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 304,
-	"CollisionType": "Solid"
+    "MirrorTile": 304
   },
   "307": {
     "Name": "Dirt wall, West",
     "Description": "",
-    "MirrorTile": 309,
-	"CollisionType": "Solid"
+    "MirrorTile": 309
   },
   "309": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 307,
-	"CollisionType": "Solid"
+    "MirrorTile": 307
   },
   "310": {
     "Name": "Tree, West",
     "Description": "Bottom left of tree",
-    "MirrorTile": 313,
-	"CollisionType": "Solid"
+    "MirrorTile": 313
   },
   "311": {
     "Name": "Tree, West",
     "Description": "Bottom left of tree",
-    "MirrorTile": 312,
-	"CollisionType": "Solid"
+    "MirrorTile": 312
   },
   "312": {
     "Name": "Tree, East",
     "Description": "Bottom right of tree",
-    "MirrorTile": 311,
-	"CollisionType": "Solid"
+    "MirrorTile": 311
   },
   "313": {
     "Name": "Tree, East",
     "Description": "Bottom right of tree",
-    "MirrorTile": 310,
-	"CollisionType": "Solid"
+    "MirrorTile": 310
   },
   "314": {
     "Name": "Tree, East",
     "Description": "Bottom right of tree",
-    "MirrorTile": 315,
-	"CollisionType": "Solid"
+    "MirrorTile": 315
   },
   "315": {
     "Name": "Tree, West",
     "Description": "Bottom right of tree",
-    "MirrorTile": 314,
-	"CollisionType": "Solid"
+    "MirrorTile": 314
   },
   "316": {
     "Name": "Tree, Wast",
     "Description": "Top left corner of tree",
-    "MirrorTile": 317,
-	"CollisionType": "Solid"
+    "MirrorTile": 317
   },
   "317": {
     "Name": "Tree, East",
     "Description": "Top right corner of tree",
-    "MirrorTile": 316,
-	"CollisionType": "Solid"
+    "MirrorTile": 316
   },
   "318": {
     "Name": "Tree, West",
     "Description": "Left corner of tree",
-    "MirrorTile": 319,
-	"CollisionType": "Solid"
+    "MirrorTile": 319
   },
   "319": {
     "Name": "Tree East",
     "Description": "Right corner of tree",
-    "MirrorTile": 318,
-	"CollisionType": "Solid"
+    "MirrorTile": 318
   },
   "320": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 325,
-	"CollisionType": "Solid"
+    "MirrorTile": 325
   },
   "321": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 324,
-	"CollisionType": "Solid"
+    "MirrorTile": 324
   },
   "322": {
     "Name": "Dirt wall, West",
     "Description": "Wall meets water",
-    "MirrorTile": 323,
-	"CollisionType": "Solid"
+    "MirrorTile": 323
   },
   "323": {
     "Name": "Dirt wall, East",
     "Description": "Wall meets water",
-    "MirrorTile": 322,
-	"CollisionType": "Solid"
+    "MirrorTile": 322
   },
   "324": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 321,
-	"CollisionType": "Solid"
+    "MirrorTile": 321
   },
   "325": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 320,
-	"CollisionType": "Solid"
+    "MirrorTile": 320
   },
   "326": {
     "Name": "",
@@ -1766,8 +1510,7 @@
   "329": {
     "Name": "Tall grass burnable",
     "Description": "Tall grass you can cut/burn",
-    "MirrorTile": 331,
-	"CollisionType": "Burnable Breakable Walkable"
+    "MirrorTile": 331
   },
   "330": {
     "Name": "",
@@ -1776,49 +1519,41 @@
   "331": {
     "Name": "Dirt",
     "Description": "Grass that was burned",
-    "MirrorTile": 329,
-	"CollisionType": "Walkable"
+    "MirrorTile": 329
   },
   "332": {
     "Name": "Ice block?",
     "Description": "",
-    "MirrorTile": 348,
-	"CollisionType": "Burnable Solid"
+    "MirrorTile": 348
   },
   "333": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 334,
-	"CollisionType": "Solid"
+    "MirrorTile": 334
   },
   "334": {
     "Name": "Dirt wall",
     "Description": "",
-    "MirrorTile": 333,
-	"CollisionType": "Solid"
+    "MirrorTile": 333
   },
   "335": {
-    "Name": "Dirt wall?",
-    "Description": "",
-	"CollisionType": "Solid?"
+    "Name": "",
+    "Description": ""
   },
   "336": {
     "Name": "Dirt wall, West",
     "Description": "",
-    "MirrorTile": 341,
-	"CollisionType": "Solid"
+    "MirrorTile": 341
   },
   "337": {
     "Name": "Dirt wall, East",
     "Description": "",
-    "MirrorTile": 340,
-	"CollisionType": "Solid"
+    "MirrorTile": 340
   },
   "338": {
     "Name": "Dirt ",
     "Description": "",
-    "MirrorTile": 339,
-	"CollisionType": "Walkable"
+    "MirrorTile": 339
   },
   "339": {
     "Name": "",
@@ -1846,10 +1581,9 @@
     "MirrorTile": 342
   },
   "348": {
-    "Name": "Ice Block Alt?",
+    "Name": "",
     "Description": "",
-    "MirrorTile": 332,
-	"CollisionType": "Burnable Solid"
+    "MirrorTile": 332
   },
   "349": {
     "Name": "",
@@ -2112,30 +1846,26 @@
     "MirrorTile": 410
   },
   "412": {
-    "Name": "House door Left Side",
+    "Name": "House door",
     "Description": "",
     "MirrorTile": 413,
     "RequiredActorID": "WARP",
-    "ActorValue": 33554457,
-	"CollisionType": "Solid"
+    "ActorValue": 33554457
   },
   "413": {
-    "Name": "House door Right Side",
+    "Name": "House door",
     "Description": "",
-    "MirrorTile": 412,
-	"CollisionType": "Solid"
+    "MirrorTile": 412
   },
   "414": {
-    "Name": "House door, open Left Side",
+    "Name": "House door, open",
     "Description": "",
-    "MirrorTile": 415,
-	"CollisionType": "Walkable"
+    "MirrorTile": 415
   },
   "415": {
-    "Name": "House door, open Right Side",
+    "Name": "House door, open",
     "Description": "",
-    "MirrorTile": 414,
-	"CollisionType": "Walkable"
+    "MirrorTile": 414
   },
   "416": {
     "Name": "",
@@ -2189,8 +1919,7 @@
   },
   "432": {
     "Name": "Ground",
-    "Description": "Default, Traversable.",
-	"CollisionType": "Walkable"
+    "Description": "Default, Traversable."
   },
   "437": {
     "Name": "",
@@ -2266,385 +1995,325 @@
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 467,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "465": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 466,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "466": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 465,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "467": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 464,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "468": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 469,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "469": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 468,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "470": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 473,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "471": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 472,
-	"CollisionType": "Solid?"
+    "MirrorTile": 472
   },
   "472": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 471,
-	"CollisionType": "Solid?"
+    "MirrorTile": 471
   },
   "473": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 470,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "476": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 477,
-	"CollisionType": "Solid?"
+    "MirrorTile": 477
   },
   "477": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 476,
-	"CollisionType": "Solid?"
+    "MirrorTile": 476
   },
   "478": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 479,
-	"CollisionType": "Solid?"
+    "MirrorTile": 479
   },
   "479": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 478,
-	"CollisionType": "Solid?"
+    "MirrorTile": 478
   },
   "480": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 483,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "481": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 482,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "482": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 481,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "483": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 480,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "484": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 485,
-	"CollisionType": "Solid?"
+    "MirrorTile": 485
   },
   "485": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 484,
-	"CollisionType": "Solid?"
+    "MirrorTile": 484
   },
   "486": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 489,
-	"CollisionType": "Solid?"
+    "MirrorTile": 489
   },
   "487": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 488,
-	"CollisionType": "Solid?"
+    "MirrorTile": 488
   },
   "488": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 487,
-	"CollisionType": "Solid?"
+    "MirrorTile": 487
   },
   "489": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 486,
-	"CollisionType": "Solid?"
+    "MirrorTile": 486
   },
   "490": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 491,
-	"CollisionType": "Solid?"
+    "MirrorTile": 491
   },
   "491": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 490,
-	"CollisionType": "Solid?"
+    "MirrorTile": 490
   },
   "492": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 493,
-	"CollisionType": "Solid?"
+    "MirrorTile": 493
   },
   "493": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 492,
-	"CollisionType": "Solid?"
+    "MirrorTile": 492
   },
   "494": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 495,
-	"CollisionType": "Solid?"
+    "MirrorTile": 495
   },
   "495": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 494,
-	"CollisionType": "Solid?"
+    "MirrorTile": 494
   },
   "496": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 499,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "497": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 498,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "498": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 497,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "499": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 496,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "500": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 501,
-	"CollisionType": "Solid?"
+    "MirrorTile": 501
   },
   "501": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 500,
-	"CollisionType": "Solid?"
+    "MirrorTile": 500
   },
   "502": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 505,
-	"CollisionType": "Solid?"
+    "MirrorTile": 505
   },
   "503": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 504,
-	"CollisionType": "Solid?"
+    "MirrorTile": 504
   },
   "504": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 503,
-	"CollisionType": "Solid?"
+    "MirrorTile": 503
   },
   "505": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 502,
-	"CollisionType": "Solid?"
+    "MirrorTile": 502
   },
   "506": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 507,
-	"CollisionType": "Solid?"
+    "MirrorTile": 507
   },
   "507": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 506,
-	"CollisionType": "Solid?"
+    "MirrorTile": 506
   },
   "508": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 511,
-	"CollisionType": "Solid?"
+    "MirrorTile": 511
   },
   "509": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 510,
-	"CollisionType": "Solid?"
+    "MirrorTile": 510
   },
   "510": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 509,
-	"CollisionType": "Solid?"
+    "MirrorTile": 509
   },
   "511": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 508,
-	"CollisionType": "Solid?"
+    "MirrorTile": 508
   },
   "512": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 515,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "513": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 514,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "514": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 513,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "515": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 512,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "516": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 517,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "517": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 516,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "518": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 521,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "519": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 520,
-	"CollisionType": "Solid?"
+    "MirrorTile": 520
   },
   "520": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 519,
-	"CollisionType": "Solid?"
+    "MirrorTile": 519
   },
   "521": {
     "Name": "Tree",
     "Description": "",
     "MirrorTile": 518,
-    "PlaceAlwaysOnTopLayer": true,
-	"CollisionType": "Walkable"
+    "PlaceAlwaysOnTopLayer": true
   },
   "524": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 527,
-	"CollisionType": "Solid?"
+    "MirrorTile": 527
   },
   "525": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 526,
-	"CollisionType": "Solid?"
+    "MirrorTile": 526
   },
   "526": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 525,
-	"CollisionType": "Solid?"
+    "MirrorTile": 525
   },
   "527": {
     "Name": "Tree",
     "Description": "",
-    "MirrorTile": 524,
-	"CollisionType": "Solid?"
+    "MirrorTile": 524
   },
   "528": {
     "Name": "",
@@ -3227,28 +2896,24 @@
     "MirrorTile": 648
   },
   "656": {
-    "Name": "Statue Top Left",
+    "Name": "Statue",
     "Description": "",
-    "MirrorTile": 657,
-	"CollisionType": "Solid"
+    "MirrorTile": 657
   },
   "657": {
-    "Name": "Statue Top Right",
+    "Name": "Statue",
     "Description": "",
-    "MirrorTile": 656,
-	"CollisionType": "Solid"
+    "MirrorTile": 656
   },
   "658": {
-    "Name": "Statue Bottom Left",
+    "Name": "Statue",
     "Description": "",
-    "MirrorTile": 659,
-	"CollisionType": "Solid"
+    "MirrorTile": 659
   },
   "659": {
-    "Name": "Statue Bottom Right",
+    "Name": "Statue",
     "Description": "",
-    "MirrorTile": 658,
-	"CollisionType": "Solid"
+    "MirrorTile": 658
   },
   "666": {
     "Name": "",
@@ -3351,28 +3016,24 @@
     "MirrorTile": 686
   },
   "692": {
-    "Name": "Statue Left Alt",
+    "Name": "Statue",
     "Description": "",
-    "MirrorTile": 693,
-	"CollisionType": "Solid"
+    "MirrorTile": 693
   },
   "693": {
-    "Name": "Statue Right Alt",
+    "Name": "Statue",
     "Description": "",
-    "MirrorTile": 692,
-	"CollisionType": "Solid"
+    "MirrorTile": 692
   },
   "694": {
-    "Name": "Top of Upwards Staircase Top Left Alt",
+    "Name": "",
     "Description": "",
-    "MirrorTile": 695,
-	"CollisionType": "Walkable"
+    "MirrorTile": 695
   },
   "695": {
-    "Name": "Top of Upwards Staircase Top Right Alt",
+    "Name": "",
     "Description": "",
-    "MirrorTile": 694,
-	"CollisionType": "Walkable"
+    "MirrorTile": 694
   },
   "698": {
     "Name": "",
@@ -3548,341 +3209,277 @@
     "Name": "Closed 1x1 door (north)",
     "MirrorTile": 737,
     "RequiredActorID": "DOOR",
-    "ActorValue": 2147483776,
-	"CollisionType": "Solid"
+    "ActorValue": 2147483776
   },
   "737": {
     "Name": "Closed 1x1 door (north)",
-    "MirrorTile": 736,
-	"CollisionType": "Solid"
+    "MirrorTile": 736
   },
   "738": {
     "Name": "Closed 1x1 door (west)",
     "MirrorTile": 739,
     "RequiredActorID": "DOOR",
-    "ActorValue": 2147483904,
-	"CollisionType": "Solid"
+    "ActorValue": 2147483904
   },
   "739": {
     "Name": "Closed 1x1 door (east)",
     "MirrorTile": 738,
     "RequiredActorID": "DOOR",
-    "ActorValue": 2147484032,
-	"CollisionType": "Solid"
+    "ActorValue": 2147484032
   },
   "740": {
     "Name": "Door frame ceiling (north)",
     "Description": "",
-    "MirrorTile": 742,
-	"CollisionType": "Walkable"
+    "MirrorTile": 742
   },
   "741": {
     "Name": "Door frame ceiling (north)",
-    "Description": "",
-	"CollisionType": "Walkable"
+    "Description": ""
   },
   "742": {
     "Name": "Door frame ceiling (north)",
     "Description": "",
-    "MirrorTile": 740,
-	"CollisionType": "Walkable"
+    "MirrorTile": 740
   },
   "743": {
     "Name": "Door frame ceiling (west)",
     "Description": "",
-    "MirrorTile": 759,
-	"CollisionType": "Walkable"
+    "MirrorTile": 759
   },
   "744": {
     "Name": "Door frame ceiling (west)",
     "Description": "",
-    "MirrorTile": 760,
-	"CollisionType": "Walkable"
+    "MirrorTile": 760
   },
   "745": {
     "Name": "Door frame ceiling (west)",
     "Description": "",
-    "MirrorTile": 761,
-	"CollisionType": "Walkable"
+    "MirrorTile": 761
   },
   "746": {
     "Name": "Door frame (north)",
-    "MirrorTile": 747,
-	"CollisionType": "Walkable"
+    "MirrorTile": 747
   },
   "747": {
     "Name": "Door frame (north)",
-    "MirrorTile": 746,
-	"CollisionType": "Walkable"
+    "MirrorTile": 746
   },
   "748": {
     "Name": "Door frame (west)",
-    "MirrorTile": 749,
-	"CollisionType": "Walkable"
+    "MirrorTile": 749
   },
   "749": {
     "Name": "Door frame (east)",
-    "MirrorTile": 748,
-	"CollisionType": "Walkable"
+    "MirrorTile": 748
   },
   "750": {
-    "Name": "Doorway (north)",
-	"CollisionType": "Walkable"
+    "Name": "Doorway (north)"
   },
   "751": {
     "Name": "Doorway (west)",
-    "MirrorTile": 767,
-	"CollisionType": "Walkable"
+    "MirrorTile": 767
   },
   "752": {
     "Name": "Closed 1x1 door (north)",
     "MirrorTile": 753,
     "RequiredActorID": "DOOR",
-    "ActorValue": 2147483648,
-	"CollisionType": "Solid"
+    "ActorValue": 2147483648
   },
   "753": {
     "Name": "Closed 1x1 door (north)",
-    "MirrorTile": 752,
-	"CollisionType": "Solid"
+    "MirrorTile": 752
   },
   "754": {
     "Name": "Closed 1x1 door (west)",
-    "MirrorTile": 755,
-	"CollisionType": "Solid"
+    "MirrorTile": 755
   },
   "755": {
     "Name": "Closed 1x1 door (east)",
-    "MirrorTile": 754,
-	"CollisionType": "Solid"
+    "MirrorTile": 754
   },
   "756": {
     "Name": "Door frame ceiling (south)",
     "Description": "",
-    "MirrorTile": 758,
-	"CollisionType": "Walkable"
+    "MirrorTile": 758
   },
   "757": {
     "Name": "Door frame ceiling (south)",
-    "Description": "",
-	"CollisionType": "Walkable"
+    "Description": ""
   },
   "758": {
     "Name": "Door frame ceiling (south)",
     "Description": "",
-    "MirrorTile": 756,
-	"CollisionType": "Walkable"
+    "MirrorTile": 756
   },
   "759": {
     "Name": "Door frame ceiling (east)",
     "Description": "",
-    "MirrorTile": 743,
-	"CollisionType": "Walkable"
+    "MirrorTile": 743
   },
   "760": {
     "Name": "Door frame ceiling (east)",
     "Description": "",
-    "MirrorTile": 744,
-	"CollisionType": "Walkable"
+    "MirrorTile": 744
   },
   "761": {
     "Name": "Door frame ceiling (east)",
     "Description": "",
-    "MirrorTile": 745,
-	"CollisionType": "Walkable"
+    "MirrorTile": 745
   },
   "762": {
     "Name": "Door frame (south)",
-    "MirrorTile": 763,
-	"CollisionType": "Walkable"
+    "MirrorTile": 763
   },
   "763": {
     "Name": "Door frame (south)",
-    "MirrorTile": 762,
-	"CollisionType": "Walkable"
+    "MirrorTile": 762
   },
   "764": {
     "Name": "Door frame (west)",
-    "MirrorTile": 765,
-	"CollisionType": "Walkable"
+    "MirrorTile": 765
   },
   "765": {
     "Name": "Door frame (east)",
-    "MirrorTile": 764,
-	"CollisionType": "Walkable"
+    "MirrorTile": 764
   },
   "766": {
-    "Name": "Doorway (south)",
-	"CollisionType": "Walkable"
+    "Name": "Doorway (south)"
   },
   "767": {
     "Name": "Doorway (east)",
-    "MirrorTile": 751,
-	"CollisionType": "Walkable"
+    "MirrorTile": 751
   },
   "768": {
     "Name": "Closed door (north)",
-    "MirrorTile": 769,
-	"CollisionType": "Solid"
+    "MirrorTile": 769
   },
   "769": {
     "Name": "Closed door (north)",
-    "MirrorTile": 768,
-	"CollisionType": "Solid"
+    "MirrorTile": 768
   },
   "770": {
     "Name": "Closed door (west)",
-    "MirrorTile": 771,
-	"CollisionType": "Solid"
+    "MirrorTile": 771
   },
   "771": {
     "Name": "Closed door (east)",
-    "MirrorTile": 770,
-	"CollisionType": "Solid"
+    "MirrorTile": 770
   },
   "772": {
     "Name": "Locked door (north)",
-    "MirrorTile": 773,
-	"CollisionType": "Solid"
+    "MirrorTile": 773
   },
   "773": {
     "Name": "Locked door (north)",
-    "MirrorTile": 772,
-	"CollisionType": "Solid"
+    "MirrorTile": 772
   },
   "774": {
     "Name": "Locked door (west)",
-    "MirrorTile": 775,
-	"CollisionType": "Solid"
+    "MirrorTile": 775
   },
   "775": {
     "Name": "Locked door (east)",
-    "MirrorTile": 774,
-	"CollisionType": "Solid"
+    "MirrorTile": 774
   },
   "776": {
-    "Name": "Closed door (north)",
-	"CollisionType": "Solid"
+    "Name": "Closed door (north)"
   },
   "777": {
     "Name": "Closed door (west)",
-    "MirrorTile": 793,
-	"CollisionType": "Solid"
+    "MirrorTile": 793
   },
   "778": {
     "Name": "Closed door frame (north)",
     "MirrorTile": 779,
     "RequiredActorID": "DOOR",
-    "ActorValue": 8320,
-	"CollisionType": "Walkable?"
+    "ActorValue": 8320
   },
   "779": {
     "Name": "Closed door frame (north)",
-    "MirrorTile": 778,
-	"CollisionType": "Walkable?"
+    "MirrorTile": 778
   },
   "780": {
     "Name": "Closed door frame (west)",
     "MirrorTile": 781,
     "RequiredActorID": "DOOR",
-    "ActorValue": 8448,
-	"CollisionType": "Walkable?"
+    "ActorValue": 8448
   },
   "781": {
     "Name": "Closed door frame (east)",
     "MirrorTile": 780,
     "RequiredActorID": "DOOR",
-    "ActorValue": 8576,
-	"CollisionType": "Walkable?"
+    "ActorValue": 8576
   },
   "782": {
-    "Name": "Wide cracked wall (north)",
-	"CollisionType": "Solid"
+    "Name": "Wide cracked wall (north)"
   },
   "783": {
     "Name": "Wide cracked wall (west)",
-    "MirrorTile": 799,
-	"CollisionType": "Solid"
+    "MirrorTile": 799
   },
   "784": {
     "Name": "Closed door (south)",
-    "MirrorTile": 785,
-	"CollisionType": "Solid"
+    "MirrorTile": 785
   },
   "785": {
     "Name": "Closed door (south)",
-    "MirrorTile": 784,
-	"CollisionType": "Solid"
+    "MirrorTile": 784
   },
   "786": {
     "Name": "Closed door (west)",
-    "MirrorTile": 787,
-	"CollisionType": "Solid"
+    "MirrorTile": 787
   },
   "787": {
     "Name": "Closed door (east)",
-    "MirrorTile": 786,
-	"CollisionType": "Solid"
+    "MirrorTile": 786
   },
   "788": {
     "Name": "Locked door (south)",
-    "MirrorTile": 789,
-	"CollisionType": "Solid"
+    "MirrorTile": 789
   },
   "789": {
     "Name": "Locked door (south)",
-    "MirrorTile": 788,
-	"CollisionType": "Solid"
+    "MirrorTile": 788
   },
   "790": {
     "Name": "Locked door (west)",
-    "MirrorTile": 791,
-	"CollisionType": "Solid"
+    "MirrorTile": 791
   },
   "791": {
     "Name": "Locked door (east)",
-    "MirrorTile": 790,
-	"CollisionType": "Solid"
+    "MirrorTile": 790
   },
   "792": {
-    "Name": "Closed door (south)",
-	"CollisionType": "Solid"
+    "Name": "Closed door (south)"
   },
   "793": {
     "Name": "Closed door (east)",
-    "MirrorTile": 777,
-	"CollisionType": "Solid"
+    "MirrorTile": 777
   },
   "794": {
     "Name": "Closed door frame (south)",
     "MirrorTile": 795,
     "RequiredActorID": "DOOR",
-    "ActorValue": 8192,
-	"CollisionType": "Walkable?"
+    "ActorValue": 8192
   },
   "795": {
     "Name": "Closed door frame (south)",
-    "MirrorTile": 794,
-	"CollisionType": "Walkable?"
+    "MirrorTile": 794
   },
   "796": {
     "Name": "Closed door frame (west)",
-    "MirrorTile": 797,
-	"CollisionType": "Walkable?"
+    "MirrorTile": 797
   },
   "797": {
     "Name": "Closed door frame (east)",
-    "MirrorTile": 796,
-	"CollisionType": "Walkable?"
+    "MirrorTile": 796
   },
   "798": {
-    "Name": "Wide cracked wall (south)",
-	"CollisionType": "Solid"
+    "Name": "Wide cracked wall (south)"
   },
   "799": {
     "Name": "Wide cracked wall (east)",
-    "MirrorTile": 783,
-	"CollisionType": "Solid"
+    "MirrorTile": 783
   },
   "800": {
     "Name": "",
@@ -4022,13 +3619,11 @@
   },
   "834": {
     "Name": "Door (south)",
-    "MirrorTile": 825,
-	"CollisionType": "Walkable"
+    "MirrorTile": 825
   },
   "835": {
     "Name": "Door (south)",
-    "MirrorTile": 824,
-	"CollisionType": "Walkable"
+    "MirrorTile": 824
   },
   "836": {
     "Name": "",
@@ -4050,27 +3645,23 @@
     "Name": "Locked door (north)",
     "MirrorTile": 841,
     "RequiredActorID": "DOOR",
-    "ActorValue": 129,
-	"CollisionType": "Solid"
+    "ActorValue": 129
   },
   "841": {
     "Name": "Locked door (north)",
-    "MirrorTile": 840,
-	"CollisionType": "Solid"
+    "MirrorTile": 840
   },
   "842": {
     "Name": "Locked door (west)",
     "MirrorTile": 843,
     "RequiredActorID": "DOOR",
-    "ActorValue": 257,
-	"CollisionType": "Solid"
+    "ActorValue": 257
   },
   "843": {
     "Name": "Locked door (east)",
     "MirrorTile": 842,
     "RequiredActorID": "DOOR",
-    "ActorValue": 385,
-	"CollisionType": "Solid"
+    "ActorValue": 385
   },
   "844": {
     "Name": "",
@@ -4090,65 +3681,53 @@
   },
   "848": {
     "Name": "Door (north)",
-    "MirrorTile": 849,
-	"CollisionType": "Walkable"
+    "MirrorTile": 849
   },
   "849": {
     "Name": "Door (north)",
-    "MirrorTile": 848,
-	"CollisionType": "Walkable"
+    "MirrorTile": 848
   },
   "850": {
     "Name": "",
-    "MirrorTile": 851,
-	"CollisionType": "Walkable"
+    "MirrorTile": 851
   },
   "851": {
     "Name": "",
-    "MirrorTile": 850,
-	"CollisionType": "Walkable"
+    "MirrorTile": 850
   },
   "852": {
     "Name": "Door (west)",
-    "MirrorTile": 855,
-	"CollisionType": "Walkable"
+    "MirrorTile": 855
   },
   "853": {
     "Name": "Door (west)",
-    "MirrorTile": 854,
-	"CollisionType": "Walkable"
+    "MirrorTile": 854
   },
   "854": {
     "Name": "Door (east)",
-    "MirrorTile": 853,
-	"CollisionType": "Walkable"
+    "MirrorTile": 853
   },
   "855": {
     "Name": "Door (east)",
-    "MirrorTile": 852,
-	"CollisionType": "Walkable"
+    "MirrorTile": 852
   },
   "856": {
     "Name": "Locked door (south)",
     "MirrorTile": 857,
     "RequiredActorID": "DOOR",
-    "ActorValue": 1,
-	"CollisionType": "Solid"
+    "ActorValue": 1
   },
   "857": {
     "Name": "Locked door (south)",
-    "MirrorTile": 856,
-	"CollisionType": "Solid"
+    "MirrorTile": 856
   },
   "858": {
     "Name": "Locked door (west)",
-    "MirrorTile": 859,
-	"CollisionType": "Solid"
+    "MirrorTile": 859
   },
   "859": {
     "Name": "Locked door (east)",
-    "MirrorTile": 858,
-	"CollisionType": "Solid"
+    "MirrorTile": 858
   },
   "860": {
     "Name": "",
@@ -4422,8 +4001,7 @@
     "Name": "",
     "MirrorTile": 937,
     "RequiredActorID": "DOOR",
-    "ActorValue": 131,
-	"CollisionType": "Walkable"
+    "ActorValue": 131
   },
   "937": {
     "Name": "",
@@ -4614,105 +4192,67 @@
     "MirrorTile": 956
   },
   "996": {
-    "Name": "Stalactite Background (Side view)",
-	"CollisionType": "Walkable"
+    "Name": "Stalactite Background (Side view)"
   },
   "997": {
-    "Name": "Stalactite Background (Side view)",
-	"CollisionType": "Walkable"
+    "Name": "Stalactite Background (Side view)"
   },
   "999": {
-    "Name": "Door frame Top Left (Side view)",
-    "MirrorTile": 1000,
-	"CollisionType": "Walkable"
+    "Name": "Door frame (Side view)",
+    "MirrorTile": 1000
   },
   "1000": {
-    "Name": "Door frame Top Right (Side view)",
-    "MirrorTile": 999,
-	"CollisionType": "Walkable"
+    "Name": "Door frame (Side view)",
+    "MirrorTile": 999
   },
   "1001": {
-    "Name": "Door frame Bottom Left (Side view)",
-    "MirrorTile": 1002,
-	"CollisionType": "Walkable"
+    "Name": "Door frame (Side view)",
+    "MirrorTile": 1002
   },
   "1002": {
-    "Name": "Door frame Bottom Right (Side view)",
-    "MirrorTile": 1001,
-	"CollisionType": "Walkable"
+    "Name": "Door frame (Side view)",
+    "MirrorTile": 1001
   },
-  "1007": {
-	"Name": "Ladder (Side view)",
-	"Description": "Can walk on it acts like Top Down Mode Floors",
-	"CollisionType": "Walkable"
   "1008": {
-    "Name": "Floor Left (Side view)",
-    "MirrorTile": 1010,
-	"CollisionType": "Solid"
+    "Name": "Floor (Side view)",
+    "MirrorTile": 1010
   },
   "1009": {
-    "Name": "Floor Middle (Side view)"
-	"CollisionType": "Solid",
+    "Name": "Floor (Side view)"
   },
   "1010": {
-    "Name": "Floor Right (Side view)",
-    "MirrorTile": 1009,
-	"CollisionType": "Solid"
+    "Name": "Floor (Side view)",
+    "MirrorTile": 1009
   },
   "1011": {
     "Name": "Wall (Side view)",
-    "MirrorTile": 1013,
-	"CollisionType": "Solid"
+    "MirrorTile": 1013
   },
   "1012": {
-    "Name": "Wall (Side view)",
-	"CollisionType": "Solid"
+    "Name": "Wall (Side view)"
   },
   "1013": {
     "Name": "Wall (Side view)",
-    "MirrorTile": 1011,
-	"CollisionType": "Solid"
+    "MirrorTile": 1011
   },
   "1014": {
     "Name": "Ceiling (Side view)",
-    "MirrorTile": 1016,
-	"CollisionType": "Solid"
+    "MirrorTile": 1016
   },
   "1015": {
-    "Name": "Ceiling (Side view)",
-	"CollisionType": "Solid"
+    "Name": "Ceiling (Side view)"
   },
   "1016": {
     "Name": "Ceiling (Side view)",
-    "MirrorTile": 1014,
-	"CollisionType": "Solid"
+    "MirrorTile": 1014
   },
   "1017": {
-    "Name": "Floor Alt (Side view)",
-	"CollisionType": "Solid"
+    "Name": "Floor (Side view)"
   },
   "1018": {
-    "Name": "Wall (Side view)",
-	"CollisionType": "Solid"
+    "Name": "Wall (Side view)"
   },
   "1019": {
-    "Name": "Ceiling (Side view)",
-	"CollisionType": "Solid"
-  },
-  "1020": {
-	"Name": "Floor Alt 2 (Side view)",
-	"CollisionType": "Solid"
-  },
-  "1021": {
-    "Name": "Stalactite Background (Side view)",
-	"CollisionType": "Walkable?"
-  },
-  "1022": {
-    "Name": "Pillar Wall (Side view)",
-	"CollisionType": "Solid"
-  },
-  "1023": {
-    "Name": "Stalactite Background (Side view)",
-	"CollisionType": "Walkable?"
-	
+    "Name": "Ceiling (Side view)"
+  }
 }
