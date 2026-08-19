@@ -303,7 +303,7 @@
   },
   "56": {
     "Name": "Thorn blockade",
-    "Description": "Can be controlled with the help of a THRN Actor."
+    "Description": "Can be controlled with the help of a THRN Actor.",
 	"CollisionTyp": "Solid"
   },
   "57": {
@@ -5058,7 +5058,7 @@
 	"CollisionTyp": "Solid"
   },
   "1009": {
-    "Name": "Floor Middle (Side view)"
+    "Name": "Floor Middle (Side view)",
 	"CollisionTyp": "Solid",
   },
   "1010": {
