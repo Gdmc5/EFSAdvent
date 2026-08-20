@@ -603,7 +603,7 @@
     "RequiredActorID": "SWTH",
 	"Collision": "Solid",
 	"Interaction": "Pickupable, Destructible",
-	"InteractionTile": 121
+	"InteractionTile": 18
   },
   "105": {
     "Name": "Bush, reveals hole",
@@ -931,9 +931,9 @@
 	"Collision": "Solid"
   },
   "159": {
-    "Name": "Need to Research Tile?",
+    "Name": "Abyss",
     "Description": "159",
-	"Collision": "Solid"
+	"Collision": "Abyss"
   },
   "160": {
     "Name": "Shovel, top",
@@ -1355,19 +1355,25 @@
 	"Collision": "Hazard"
   },
   "234": {
-    "Name": "Need to Research Tile?",
+    "Name": "Vine",
     "Description": "234",
-	"Collision": "Solid"
+	"Collision": "Solid",
+	"Interaction": "Slashable",
+	"InteractionTile": 594
   },
   "235": {
-    "Name": "Need to Research Tile?",
+    "Name": "Vine",
     "Description": "235",
-	"Collision": "Solid"
+	"Collision": "Solid",
+	"Interaction": "Slashable",
+	"InteractionTile": 595
   },
   "236": {
-    "Name": "Need to Research Tile?",
+    "Name": "Vine",
     "Description": "236",
-	"Collision": "Solid"
+	"Collision": "Solid",
+	"Interaction": "Slashable",
+	"InteractionTile": 593
   },
   "237": {
     "Name": "Ladder, Top West",
@@ -1439,9 +1445,11 @@
 	"Collision": "Solid"
   },
   "249": {
-    "Name": "Bottom Facing Wall?",
+    "Name": "Vine",
     "Description": "",
-	"Collision": "Solid"
+	"Collision": "Solid",
+	"Interaction": "Slashable",
+	"InteractionTile": 603
   },
   "250": {
     "Name": "Tree trunk",
@@ -2116,12 +2124,14 @@
   "369": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 370
+    "MirrorTile": 370,
+	"Collision": "DeepWater"
   },
   "370": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 369
+    "MirrorTile": 369,
+	"Collision": "DeepWater"
   },
   "371": {
     "Name": "",
@@ -2157,7 +2167,8 @@
   },
   "377": {
     "Name": "",
-	"Description": ""
+	"Description": "",
+	"Collision": "DeepWater"
   },
   "378": {
     "Name": "",
@@ -3279,17 +3290,20 @@
   "594": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 605
+    "MirrorTile": 605,
+	"Collision": "Solid"
   },
   "595": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 604
+    "MirrorTile": 604,
+	"Collision": "Solid"
   },
   "596": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 603
+    "MirrorTile": 603,
+	"Collision": "Solid"
   },
   "597": {
     "Name": "",
@@ -3330,7 +3344,8 @@
   "603": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 596
+    "MirrorTile": 596,
+	"Collision": "Solid"
   },
   "604": {
     "Name": "",
@@ -3515,82 +3530,98 @@
   "640": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 641
+    "MirrorTile": 641,
+	"Collision": "Solid"
   },
   "641": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 640
+    "MirrorTile": 640,
+	"Collision": "Solid"
   },
   "642": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 643
+    "MirrorTile": 643,
+	"Collision": "Solid"
   },
   "643": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 642
+    "MirrorTile": 642,
+	"Collision": "Solid"
   },
   "644": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 645
+    "MirrorTile": 645,
+	"Collision": "Solid"
   },
   "645": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 644
+    "MirrorTile": 644,
+	"Collision": "Solid"
   },
   "646": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 647
+    "MirrorTile": 647,
+	"Collision": "Solid"
   },
   "647": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 646
+    "MirrorTile": 646,
+	"Collision": "Solid"
   },
   "648": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 655
+    "MirrorTile": 655,
+	"Collision": "Solid"
   },
   "649": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 654
+    "MirrorTile": 654,
+	"Collision": "Solid"
   },
   "650": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 653
+    "MirrorTile": 653,
+	"Collision": "Solid"
   },
   "651": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 652
+    "MirrorTile": 652,
+	"Collision": "Solid"
   },
   "652": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 651
+    "MirrorTile": 651,
+	"Collision": "Solid"
   },
   "653": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 650
+    "MirrorTile": 650,
+	"Collision": "Solid"
   },
   "654": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 649
+    "MirrorTile": 649,
+	"Collision": "Solid"
   },
   "655": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 648
+    "MirrorTile": 648,
+	"Collision": "Solid"
   },
   "656": {
     "Name": "Statue Top Left",
@@ -3618,11 +3649,13 @@
   },
   "660": {
     "Name": "",
-	"Description": ""
+	"Description": "",
+	"Collision": "Solid"
   },
   "661": {
     "Name": "",
-	"Description": ""
+	"Description": "",
+	"Collision": "Solid"
   },
   "662": {
     "Name": "",
@@ -3630,11 +3663,13 @@
   },
   "663": {
     "Name": "",
-	"Description": ""
+	"Description": "",
+	"Collision": "Solid"
   },
   "664": {
     "Name": "",
-	"Description": ""
+	"Description": "",
+	"Collision": "Solid"
   },
   "665": {
     "Name": "",
@@ -3643,12 +3678,14 @@
   "666": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 671
+    "MirrorTile": 671,
+	"Collision": "Solid"
   },
   "667": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 670
+    "MirrorTile": 670,
+	"Collision": "Solid"
   },
   "668": {
     "Name": "",
@@ -3663,12 +3700,14 @@
   "670": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 667
+    "MirrorTile": 667,
+	"Collision": "Solid"
   },
   "671": {
     "Name": "",
     "Description": "",
-    "MirrorTile": 666
+    "MirrorTile": 666,
+	"Collision": "Solid"
   },
   "672": {
     "Name": "",
@@ -3750,15 +3789,18 @@
   },
   "688": {
     "Name": "",
-	"Description": ""
+	"Description": "",
+	"Collision": "Solid"
   },
   "689": {
     "Name": "",
-	"Description": ""
+	"Description": "",
+	"Collision": "Solid"
   },
   "690": {
     "Name": "",
-	"Description": ""
+	"Description": "",
+	"Collision": "Solid"
   },
   "691": {
     "Name": "",
@@ -4012,36 +4054,36 @@
     "Name": "Door frame ceiling (north)",
     "Description": "",
     "MirrorTile": 742,
-
+	"Collision": "Solid"
   },
   "741": {
     "Name": "Door frame ceiling (north)",
     "Description": "",
-
+	"Collision": "Solid"
   },
   "742": {
     "Name": "Door frame ceiling (north)",
     "Description": "",
     "MirrorTile": 740,
-
+	"Collision": "Solid"
   },
   "743": {
     "Name": "Door frame ceiling (west)",
     "Description": "",
     "MirrorTile": 759,
-
+	"Collision": "Solid"
   },
   "744": {
     "Name": "Door frame ceiling (west)",
     "Description": "",
     "MirrorTile": 760,
-
+	"Collision": "Solid"
   },
   "745": {
     "Name": "Door frame ceiling (west)",
     "Description": "",
     "MirrorTile": 761,
-
+	"Collision": "Solid"
   },
   "746": {
     "Name": "Door frame (north)",
@@ -4056,12 +4098,12 @@
   "748": {
     "Name": "Door frame (west)",
     "MirrorTile": 749,
-
+	"Collision": "Solid"
   },
   "749": {
     "Name": "Door frame (east)",
     "MirrorTile": 748,
-
+	"Collision": "Solid"
   },
   "750": {
     "Name": "Doorway (north)",
@@ -4098,65 +4140,65 @@
     "Name": "Door frame ceiling (south)",
     "Description": "",
     "MirrorTile": 758,
-
+	"Collision": "Solid"
   },
   "757": {
     "Name": "Door frame ceiling (south)",
     "Description": "",
-
+	"Collision": "Solid"
   },
   "758": {
     "Name": "Door frame ceiling (south)",
     "Description": "",
     "MirrorTile": 756,
-
+	"Collision": "Solid"
   },
   "759": {
     "Name": "Door frame ceiling (east)",
     "Description": "",
     "MirrorTile": 743,
-
+	"Collision": "Solid"
   },
   "760": {
     "Name": "Door frame ceiling (east)",
     "Description": "",
     "MirrorTile": 744,
-
+	"Collision": "Solid"
   },
   "761": {
     "Name": "Door frame ceiling (east)",
     "Description": "",
     "MirrorTile": 745,
-
+	"Collision": "Solid"
   },
   "762": {
     "Name": "Door frame (south)",
     "MirrorTile": 763,
-
+	"Collision": "Solid"
   },
   "763": {
     "Name": "Door frame (south)",
     "MirrorTile": 762,
-
+	"Collision": "Solid"
   },
   "764": {
     "Name": "Door frame (west)",
     "MirrorTile": 765,
-
+	"Collision": "Solid"
   },
   "765": {
     "Name": "Door frame (east)",
     "MirrorTile": 764,
-
+	"Collision": "Solid"
   },
   "766": {
     "Name": "Doorway (south)",
-
+	"Collision": "Solid"
   },
   "767": {
     "Name": "Doorway (east)",
     "MirrorTile": 751,
-
+	"Collision": "Solid"
   },
   "768": {
     "Name": "Closed door (north)",
@@ -4212,26 +4254,26 @@
     "MirrorTile": 779,
     "RequiredActorID": "DOOR",
     "ActorValue": 8320,
-	
+	"Collision": "Solid"
   },
   "779": {
     "Name": "Closed door frame (north)",
     "MirrorTile": 778,
-	
+	"Collision": "Solid"
   },
   "780": {
     "Name": "Closed door frame (west)",
     "MirrorTile": 781,
     "RequiredActorID": "DOOR",
     "ActorValue": 8448,
-	
+	"Collision": "Solid"
   },
   "781": {
     "Name": "Closed door frame (east)",
     "MirrorTile": 780,
     "RequiredActorID": "DOOR",
     "ActorValue": 8576,
-	
+	"Collision": "Solid"
   },
   "782": {
     "Name": "Wide cracked wall (north)",
@@ -4296,22 +4338,22 @@
     "MirrorTile": 795,
     "RequiredActorID": "DOOR",
     "ActorValue": 8192,
-	
+	"Collision": "Solid"
   },
   "795": {
     "Name": "Closed door frame (south)",
     "MirrorTile": 794,
-	
+	"Collision": "Solid"
   },
   "796": {
     "Name": "Closed door frame (west)",
     "MirrorTile": 797,
-	
+	"Collision": "Solid"
   },
   "797": {
     "Name": "Closed door frame (east)",
     "MirrorTile": 796,
-	
+	"Collision": "Solid"
   },
   "798": {
     "Name": "Wide cracked wall (south)",
@@ -4388,11 +4430,13 @@
   },
   "816": {
     "Name": "",
-    "MirrorTile": 817
+    "MirrorTile": 817,
+	"Collision": "Solid"
   },
   "817": {
     "Name": "",
-    "MirrorTile": 816
+    "MirrorTile": 816,
+	"Collision": "Solid"
   },
   "818": {
     "Name": "",
@@ -4511,20 +4555,24 @@
 	"Collision": "Solid"
   },
   "844": {
-    "Name": "",
-    "MirrorTile": 879
+    "Name": "Cave wall",
+    "MirrorTile": 879,
+	"Collision": "Solid"
   },
   "845": {
-    "Name": "",
-    "MirrorTile": 878
+    "Name": "Cave wall",
+    "MirrorTile": 878,
+	"Collision": "Solid"
   },
   "846": {
-    "Name": "",
-    "MirrorTile": 847
+    "Name": "Cave wall",
+    "MirrorTile": 847,
+	"Collision": "Solid"
   },
   "847": {
-    "Name": "",
-    "MirrorTile": 846
+    "Name": "Cave wall",
+    "MirrorTile": 846,
+	"Collision": "Solid"
   },
   "848": {
     "Name": "Door (north)",
@@ -4589,20 +4637,24 @@
 	"Collision": "Solid"
   },
   "860": {
-    "Name": "",
-    "MirrorTile": 895
+    "Name": "Cave wall",
+    "MirrorTile": 895,
+	"Collision": "Solid"
   },
   "861": {
-    "Name": "",
-    "MirrorTile": 894
+    "Name": "Cave wall",
+    "MirrorTile": 894,
+	"Collision": "Solid"
   },
   "862": {
-    "Name": "",
-    "MirrorTile": 863
+    "Name": "Cave wall",
+    "MirrorTile": 8634,
+	"Collision": "Solid"
   },
   "863": {
-    "Name": "",
-    "MirrorTile": 862
+    "Name": "Cave wall",
+    "MirrorTile": 8624,
+	"Collision": "Solid"
   },
   "864": {
     "Name": ""
@@ -4611,58 +4663,72 @@
     "Name": ""
   },
   "866": {
-    "Name": "",
-    "MirrorTile": 867
+    "Name": "Cave wall",
+    "MirrorTile": 867,
+	"Collision": "Solid"
   },
   "867": {
-    "Name": "",
-    "MirrorTile": 866
+    "Name": "Cave wall",
+    "MirrorTile": 866,
+	"Collision": "Solid"
   },
   "868": {
-    "Name": "",
-    "MirrorTile": 869
+    "Name": "Cave wall",
+    "MirrorTile": 869,
+	"Collision": "Solid"
   },
   "869": {
-    "Name": "",
-    "MirrorTile": 868
+    "Name": "Cave wall",
+    "MirrorTile": 868,
+	"Collision": "Solid"
   },
   "870": {
-    "Name": "",
-    "MirrorTile": 871
+    "Name": "Cave wall",
+    "MirrorTile": 871,
+	"Collision": "Solid"
   },
   "871": {
-    "Name": "",
-    "MirrorTile": 870
+    "Name": "Cave wall",
+    "MirrorTile": 870,
+	"Collision": "Solid"
   },
   "872": {
-    "Name": "",
-    "MirrorTile": 873
+    "Name": "Cave wall",
+    "MirrorTile": 873,
+	"Collision": "Solid"
   },
   "873": {
-    "Name": "",
-    "MirrorTile": 872
+    "Name": "Cave wall",
+    "MirrorTile": 872,
+	"Collision": "Solid"
   },
   "874": {
-    "Name": ""
+    "Name": "Cave wall",
+	"Collision": "Solid"
   },
   "875": {
-    "Name": ""
+    "Name": "Cave wall",
+	"Collision": "Solid"
   },
   "876": {
-    "Name": "",
-    "MirrorTile": 893
+    "Name": "Cave wall",
+    "MirrorTile": 893,
+	"Collision": "Solid"
   },
   "877": {
-    "Name": "",
-    "MirrorTile": 892
+    "Name": "Cave wall",
+    "MirrorTile": 892,
+	"Collision": "Solid"
   },
   "878": {
-    "Name": "",
-    "MirrorTile": 845
+    "Name": "Cave wall",
+    "MirrorTile": 845,
+	"Collision": "Solid"
   },
   "879": {
-    "Name": "",
-    "MirrorTile": 844
+    "Name": "Cave wall",
+    "MirrorTile": 844,
+	"Collision": "Solid"
   },
   "880": {
     "Name": ""
@@ -4671,58 +4737,72 @@
     "Name": ""
   },
   "882": {
-    "Name": "",
-    "MirrorTile": 883
+    "Name": "Cave wall",
+    "MirrorTile": 883,
+	"Collision": "Solid"
   },
   "883": {
-    "Name": "",
-    "MirrorTile": 882
+    "Name": "Cave wall",
+    "MirrorTile": 882,
+	"Collision": "Solid"
   },
   "884": {
-    "Name": "",
-    "MirrorTile": 885
+    "Name": "Cave wall",
+    "MirrorTile": 885,
+	"Collision": "Solid"
   },
   "885": {
-    "Name": "",
-    "MirrorTile": 884
+    "Name": "Cave wall",
+    "MirrorTile": 884,
+	"Collision": "Solid"
   },
   "886": {
-    "Name": "",
-    "MirrorTile": 887
+    "Name": "Cave wall",
+    "MirrorTile": 887,
+	"Collision": "Solid"
   },
   "887": {
-    "Name": "",
-    "MirrorTile": 886
+    "Name": "Cave wall",
+    "MirrorTile": 886,
+	"Collision": "Solid"
   },
   "888": {
-    "Name": "",
-    "MirrorTile": 889
+    "Name": "Cave wall",
+    "MirrorTile": 889,
+	"Collision": "Solid"
   },
   "889": {
-    "Name": "",
-    "MirrorTile": 888
+    "Name": "Cave wall",
+    "MirrorTile": 888,
+	"Collision": "Solid"
   },
   "890": {
-    "Name": ""
+    "Name": "Cave wall",
+	"Collision": "Solid"
   },
   "891": {
-    "Name": ""
+    "Name": "Cave wall",
+	"Collision": "Solid"
   },
   "892": {
-    "Name": "",
-    "MirrorTile": 877
+    "Name": "Cave wall",
+    "MirrorTile": 877,
+	"Collision": "Solid"
   },
   "893": {
-    "Name": "",
-    "MirrorTile": 876
+    "Name": "Cave wall",
+    "MirrorTile": 876,
+	"Collision": "Solid"
   },
   "894": {
     "Name": "",
-    "MirrorTile": 861
+    "MirrorTile": 861,
+	"Collision": "Solid"
   },
   "895": {
     "Name": "",
-    "MirrorTile": 860
+    "MirrorTile": 860,
+	"Collision": "Solid"
   },
   "896": {
     "Name": "",
@@ -5089,11 +5169,11 @@
   },
   "996": {
     "Name": "Stalactite Background (Side view)",
-
+	"Collision": "Solid"
   },
   "997": {
     "Name": "Stalactite Background (Side view)",
-
+	"Collision": "Solid"
   },
   "999": {
     "Name": "Door frame Top Left (Side view)",
@@ -5116,13 +5196,15 @@
 
   },
   "1003": {
-    "Name": ""
+    "Name": "",
+	"Collision": "Solid"
   },
   "1004": {
     "Name": ""
   },
   "1005": {
-    "Name": ""
+    "Name": "",
+	"Collision": "Hazard"
   },
   "1006": {
     "Name": ""
@@ -5191,13 +5273,15 @@
 	"Collision": "Solid"
   },
   "1021": {
-    "Name": "Stalactite Background (Side view)"
+    "Name": "Stalactite Background (Side view)",
+	"Collision": "Solid"
   },
   "1022": {
     "Name": "Pillar Wall (Side view)",
 	"Collision": "Solid"
   },
   "1023": {
-    "Name": "Stalactite Background (Side view)"
+    "Name": "Stalactite Background (Side view)",
+	"Collision": "Solid"
   },
 }
