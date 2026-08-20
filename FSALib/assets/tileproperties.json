@@ -265,7 +265,7 @@
   },
   "49": {
     "Name": "Abyss, does damage Alt 1",
-    "Description": "Link and enemies fall into the abyss and take damage Dupe of tile 13?.",
+    "Description": "Link and enemies fall into the abyss and take damage Dupe of tile 13?",
 	"Collision": "Abyss"
   },
   "50": {
@@ -1315,13 +1315,13 @@
   },
   "227": {
     "Name": "?",
-    "Description": "Need to Research it more",
+    "Description": "Need to Research it more?",
     "MirrorTile": 228,
 	"Collision": "Solid"
   },
   "228": {
     "Name": "?",
-    "Description": "Need to Research it more",
+    "Description": "Need to Research it more?",
     "MirrorTile": 227,
 	"Collision": "Solid"
   },
@@ -1343,13 +1343,13 @@
 	"Collision": "Solid"
   },
   "232": {
-    "Name": "Glitched tile",
+    "Name": "Glitched tile?",
     "Description": "Unknown what it is for? need to test it",
     "MirrorTile": 233,
 	"Collision": "Solid"
   },
   "233": {
-    "Name": "Glitched tile Alt",
+    "Name": "Glitched tile Alt?",
     "Description": "it acts like Spikes wonder what it is for?",
     "MirrorTile": 232,
 	"Collision": "Hazard"

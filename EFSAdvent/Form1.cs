@@ -1643,6 +1643,17 @@ namespace EFSAdvent
                                 }
 
                             }
+#if DEBUG
+                            if (string.IsNullOrWhiteSpace(tileDefinition.Name))
+                            {
+                                roomLayerGraphics.FillRectangle(Color.FromArgb(160, Color.Magenta), pos.X + 4, pos.Y + 4, 8, 8);
+                            }
+                            else if (tileDefinition.Name.EndsWith("?") || tileDefinition.Description.EndsWith("?"))
+                            {
+                                roomLayerGraphics.FillRectangle(Color.FromArgb(160, Color.Magenta), pos.X + 6, pos.Y + 6, 4, 4);
+                            }
+#endif
+
                             if (!showCollision || tileDefinition.Collision == CollisionType.Walkable)
                                 continue;
 
@@ -1658,6 +1669,13 @@ namespace EFSAdvent
                             };
                             roomLayerGraphics.FillRectangle(Color.FromArgb(Static ? 160 : 80, color), pos.X, pos.Y, TILE_DIMENSION_IN_PIXELS, TILE_DIMENSION_IN_PIXELS);
                         }
+#if DEBUG
+                        else
+                        {
+                            Point pos = new Point(x * TILE_DIMENSION_IN_PIXELS, y * TILE_DIMENSION_IN_PIXELS);
+                            roomLayerGraphics.FillRectangle(Color.FromArgb(160, Color.Magenta), pos.X, pos.Y, TILE_DIMENSION_IN_PIXELS, TILE_DIMENSION_IN_PIXELS);
+                        }
+#endif
                     }
                 }
             }
