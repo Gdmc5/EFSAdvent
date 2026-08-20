@@ -1614,6 +1614,54 @@ namespace EFSAdvent
                 }
             }
 
+            bool showInteraction = showInteractionToolStripMenuItem.Checked;
+            bool showCollision = showCollisionToolStripMenuItem.Checked;
+            if (showCollision || showInteraction)
+            {
+                int mainLayer = GetHighestActiveLayerIndex().Value % 8;
+                ReadOnlySpan<ushort> tiles = _level.Rooms[_currentRoomIndex].Layers[mainLayer].Tiles;
+                var renderer = (mainLayer == 0) ? tilesetRendererTV : tilesetRendererGBA;
+                for (int y = 0; y < Layer.DIMENSION; y++)
+                {
+                    for (int x = 0; x < Layer.DIMENSION; x++)
+                    {
+                        ushort tile = tiles[y * Layer.DIMENSION + x];
+                        if (Assets.TileProperties.TryGetValue(tile, out var tileDefinition))
+                        {
+                            Point pos = new Point(x * TILE_DIMENSION_IN_PIXELS, y * TILE_DIMENSION_IN_PIXELS);
+                            bool Static = tileDefinition.Interaction == InteractionFlags.None;
+                            if (!Static && showInteraction)
+                            {
+                                tile = tileDefinition.InteractionTile;
+                                if (!Assets.TileProperties.TryGetValue(tile, out tileDefinition))
+                                    continue;
+
+                                if (tile != 0)
+                                {
+                                    using var layerImage = (MemoryImage<BGRA32>)roomLayerBitmap.AsAuroraImage();
+                                    renderer.DrawTile(layerImage, pos.X, pos.Y, tile);
+                                }
+
+                            }
+                            if (!showCollision || tileDefinition.Collision == CollisionType.Walkable)
+                                continue;
+
+                            Color color = tileDefinition.Collision switch
+                            {
+                                CollisionType.Solid => Color.Black,
+                                CollisionType.Abyss => Color.White,
+                                CollisionType.ShallowWater => Color.Cyan,
+                                CollisionType.DeepWater => Color.Blue,
+                                CollisionType.Slippery => Color.Gray,
+                                CollisionType.Hazard => Color.Red,
+                                CollisionType.DropOff => Color.Yellow,
+                            };
+                            roomLayerGraphics.FillRectangle(Color.FromArgb(Static ? 160 : 80, color), pos.X, pos.Y, TILE_DIMENSION_IN_PIXELS, TILE_DIMENSION_IN_PIXELS);
+                        }
+                    }
+                }
+            }
+
             DrawActors();
         }
 

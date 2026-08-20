@@ -1,4 +1,5 @@
 ﻿using AuroraLib.Core.Format.Identifier;
+using System;
 using System.Diagnostics;
 
 namespace FSALib.AssetDefinitions
@@ -21,7 +22,22 @@ namespace FSALib.AssetDefinitions
         /// <summary>
         /// The mirrored version of the tile.
         /// </summary>
-        public ushort MirrorTile;
+        public ushort MirrorTile { get; set; }
+
+        /// <summary>
+        /// Defines how the tile interacts with entities.
+        /// </summary>
+        public CollisionType Collision { get; set; }
+
+        /// <summary>
+        /// Defines how the tile can be interacted with.
+        /// </summary>
+        public InteractionFlags Interaction { get; set; }
+
+        /// <summary>
+        /// Gets or sets the tile to use after an interaction.
+        /// </summary>
+        public ushort InteractionTile { get; set; }
 
         /// <summary>
         /// Required actor that must be placed for the tile to work.
