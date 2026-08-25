@@ -25,9 +25,19 @@ namespace FSALib.AssetDefinitions
         public ushort MirrorTile { get; set; }
 
         /// <summary>
-        /// Defines how the tile interacts with entities.
+        /// Gets or sets the surface type of the tile.
         /// </summary>
-        public CollisionType Collision { get; set; }
+        public SurfaceType Surface { get; set; }
+
+        /// <summary>
+        /// Gets or sets the collision mask of the tile.
+        /// </summary>
+        public TileCollision Collision { get; set; }
+
+        /// <summary>
+        /// Gets or sets the additional properties of the tile.
+        /// </summary>
+        public TileProperties Properties { get; set; }
 
         /// <summary>
         /// Defines how the tile can be interacted with.

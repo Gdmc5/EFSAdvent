@@ -14,43 +14,63 @@ namespace FSALib.AssetDefinitions
         None = 0,
 
         /// <summary>
+        /// The tile triggers an effect when touched.
+        /// </summary>
+        Touch = 1 << 0,
+
+        /// <summary>
         /// The tile can be picked up.
         /// </summary>
-        Pickupable = 1 << 0,
+        Pickupable = 1 << 1,
 
         /// <summary>
         /// The tile can be affected by a sword slash.
         /// </summary>
-        Slashable = 1 << 1,
+        Slashable = 1 << 2,
 
         /// <summary>
-        /// The tile can be affected by fire.
+        /// The tile can be interacted with by an entity using the Pegasus Boots.
         /// </summary>
-        Burnable = 1 << 2,
+        Dashable = 1 << 3,
+
+        /// <summary>
+        /// The tile can be affected by fire using a lantern or Fire Rod.
+        /// </summary>
+        Burnable = 1 << 4,
 
         /// <summary>
         /// The tile can be affected by a bomb.
         /// </summary>
-        Bombable = 1 << 3,
+        Bombable = 1 << 5,
 
         /// <summary>
         /// The tile can be affected by the hammer.
         /// </summary>
-        Hammerable = 1 << 4,
+        Hammerable = 1 << 6,
 
         /// <summary>
         /// The tile can be dug.
         /// </summary>
-        Diggable = 1 << 5,
+        Diggable = 1 << 7,
 
         /// <summary>
-        /// The tile triggers an effect when touched.
+        /// The tile can be interacted with using a slingshot or bow.
         /// </summary>
-        Touch = 1 << 6,
+        Projectile = 1 << 8,
 
         /// <summary>
-        /// The tile can be destroyed by a sword slash, fire, bomb, or hammer.
+        /// The tile can be destroyed by slashing, burning, bombing, or dashing into it.
         /// </summary>
-        Destructible = Slashable | Burnable | Bombable | Hammerable,
+        Destructible = Slashable | Burnable | Bombable | Dashable,
+
+        /// <summary>
+        /// The tile can be destroyed by any attack.
+        /// </summary>
+        Fragile = Destructible | Hammerable | Projectile,
+
+        /// <summary>
+        /// Responds to a “PNPC” tile changes.
+        /// </summary>
+        GBARewriter = 1 << 10,
     }
 }
