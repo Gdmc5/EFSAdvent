@@ -1760,6 +1760,14 @@ namespace EFSAdvent
                         case 222: // Abyss
                             spriteRendererTV.DrawSprite(target, pos.X, pos.Y, 791, 1, 13);
                             break;
+                        case 74:
+                        case 76:
+                        case 77: // Not traversable!
+                            spriteRendererTV.DrawSprite(target, pos.X, pos.Y, 135, 1, 13);
+                            break;
+                        case 75: // digging not possible
+                            spriteRendererTV.DrawSprite(target, pos.X, pos.Y, 73, 1, 7);
+                            break;
                         case 33: // Block, movable
                             spriteRendererTV.DrawSprite(target, pos.X, pos.Y, 426, 1);
                             break;
